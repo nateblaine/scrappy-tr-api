@@ -1,0 +1,331 @@
+[
+  {
+    "loot_name":       { "S": "Lance’s Mixtape (5th Edition)" },
+    "description":     { "S": "" },
+    "sell_value":      { "N": "10000" },
+    "rarity":          { "S": "Purple" },
+    "used_for_crafting": { "SS": [] },
+    "recycles_into":     { "L": [] },
+    "craftable":        { "BOOL": false },
+    "craftable_using":  { "L": [] }
+  },
+  {
+    "loot_name":       { "S": "Raider Augment III" },
+    "description":     { "S": "" },
+    "sell_value":      { "N": "" },
+    "rarity":          { "S": "Purple" },
+    "used_for_crafting": { "SS": [] },
+    "recycles_into":     { "L": [] },
+    "craftable":        { "BOOL": true },
+    "craftable_using":  {
+      "L": [
+        {
+          "M": {
+            "loot_name": { "S": "Electrical Components" },
+            "amount":    { "N": "1" }
+          }
+        },
+        {
+          "M": {
+            "loot_name": { "S": "Processor" },
+            "amount":    { "N": "2" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "loot_name":       { "S": "Heavy Shield" },
+    "description":     { "S": "" },
+    "sell_value":      { "N": "15000" },
+    "rarity":          { "S": "Purple" },
+    "used_for_crafting": { "SS": [] },
+    "recycles_into":     { "L": [] },
+    "craftable":        { "BOOL": true },
+    "craftable_using":  {
+      "L": [
+        {
+          "M": {
+            "loot_name": { "S": "ARC Alloy" },
+            "amount":    { "N": "10" }
+          }
+        },
+        {
+          "M": {
+            "loot_name": { "S": "Voltage Converter" },
+            "amount":    { "N": "5" }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "loot_name":       { "S": "Advanced Electrical Components" },
+    "description":     { "S": "" },
+    "sell_value":      { "N": "" },
+    "rarity":          { "S": "Purple" },
+    "used_for_crafting": {
+      "SS": [
+        "Equipment Bench Level III",
+        "Utility Bench Level III",
+        "Photoelectric Cloak",
+        "Snap Hook"
+      ]
+    },
+    "recycles_into": {
+      "L": [
+        {
+          "M": {
+            "loot_name": { "S": "Wires"     },
+            "amount":    { "N": "4"         }
+          }
+        },
+        {
+          "M": {
+            "loot_name": { "S": "ARC Alloy" },
+            "amount":    { "N": "3"         }
+          }
+        }
+      ]
+    },
+    "craftable":        { "BOOL": true },
+    "craftable_using":  {
+      "L": [
+        {
+          "M": {
+            "loot_name": { "S": "ARC Circuitry" },
+            "amount":    { "N": "1"             }
+          }
+        },
+        {
+          "M": {
+            "loot_name": { "S": "Electrical Components" },
+            "amount":    { "N": "1"                   }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "loot_name":       { "S": "Advanced Mechanical Components" },
+    "description":     { "S": "" },
+    "sell_value":      { "N": "" },
+    "rarity":          { "S": "Purple" },
+    "used_for_crafting": {
+      "SS": [
+        "Weapon Bench Level III"
+      ]
+    },
+    "recycles_into": {
+      "L": [
+        {
+          "M": {
+            "loot_name": { "S": "Steel Springs" },
+            "amount":    { "N": "4"              }
+          }
+        },
+        {
+          "M": {
+            "loot_name": { "S": "ARC Alloys"   },
+            "amount":    { "N": "3"             }
+          }
+        }
+      ]
+    },
+    "craftable":        { "BOOL": true },
+    "craftable_using":  {
+      "L": [
+        {
+          "M": {
+            "loot_name": { "S": "ARC Motion Core" },
+            "amount":    { "N": "1"               }
+          }
+        },
+        {
+          "M": {
+            "loot_name": { "S": "Mechanical Components" },
+            "amount":    { "N": "1"                     }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "loot_name":       { "S": "Power Rod" },
+    "description":     { "S": "" },
+    "sell_value":      { "N": "" },
+    "rarity":          { "S": "Purple" },
+    "used_for_crafting": {
+      "SS": [
+        "Raider Augment IV",
+        "Jupiter I",
+        "Equalizer I"
+      ]
+    },
+    "recycles_into": {
+      "L": [
+        {
+          "M": {
+            "loot_name": { "S": "Wires"     },
+            "amount":    { "N": "4"         }
+          }
+        },
+        {
+          "M": {
+            "loot_name": { "S": "ARC Alloy" },
+            "amount":    { "N": "3"         }
+          }
+        }
+      ]
+    },
+    "craftable":        { "BOOL": true },
+    "craftable_using":  {
+      "L": [
+        {
+          "M": {
+            "loot_name": { "S": "ARC Circuitry" },
+            "amount":    { "N": "1"             }
+          }
+        },
+        {
+          "M": {
+            "loot_name": { "S": "Electrical Components" },
+            "amount":    { "N": "1"                   }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "loot_name":       { "S": "Bastion Part" },
+    "description":     { "S": "" },
+    "sell_value":      { "N": "" },
+    "rarity":          { "S": "Purple" },
+    "used_for_crafting": {
+      "SS": [
+        "Med Station Level III"
+      ]
+    },
+    "recycles_into": {
+      "L": [
+        {
+          "M": {
+            "loot_name": { "S": "ARC Motion Core" },
+            "amount":    { "N": "1"               }
+          }
+        },
+        {
+          "M": {
+            "loot_name": { "S": "ARC Alloys"      },
+            "amount":    { "N": "2"               }
+          }
+        }
+      ]
+    },
+    "craftable":        { "BOOL": false },
+    "craftable_using":  { "L": [] }
+  },
+  {
+    "loot_name":       { "S": "Rollbot Part" },
+    "description":     { "S": "" },
+    "sell_value":      { "N": "" },
+    "rarity":          { "S": "Purple" },
+    "used_for_crafting": {
+      "SS": [
+        "Equipment Bench Level III"
+      ]
+    },
+    "recycles_into":     { "L": [] },
+    "craftable":         { "BOOL": false },
+    "craftable_using":   { "L": [] }
+  },
+  {
+    "loot_name":       { "S": "Rocketeer Core" },
+    "description":     { "S": "" },
+    "sell_value":      { "N": "" },
+    "rarity":          { "S": "Purple" },
+    "used_for_crafting": {
+      "SS": [
+        "Explosives Bench Level III"
+      ]
+    },
+    "recycles_into":     { "L": [] },
+    "craftable":         { "BOOL": false },
+    "craftable_using":   { "L": [] }
+  },
+  {
+    "loot_name":       { "S": "Wolfpack" },
+    "description":     { "S": "" },
+    "sell_value":      { "N": "" },
+    "rarity":          { "S": "Purple" },
+    "used_for_crafting": { "SS": [] },
+    "recycles_into":     { "L": [] },
+    "craftable":         { "BOOL": false },
+    "craftable_using":   { "L": [] }
+  },
+  {
+    "loot_name":       { "S": "Queen Part" },
+    "description":     { "S": "" },
+    "sell_value":      { "N": "" },
+    "rarity":          { "S": "Purple" },
+    "used_for_crafting": {
+      "SS": [
+        "Refiner Level III"
+      ]
+    },
+    "recycles_into":     { "L": [] },
+    "craftable":         { "BOOL": false },
+    "craftable_using":   { "L": [] }
+  },
+  {
+    "loot_name":       { "S": "Mod Components" },
+    "description":     { "S": "" },
+    "sell_value":      { "N": "" },
+    "rarity":          { "S": "Purple" },
+    "used_for_crafting": {
+      "SS": [
+        "Padded Stock",
+        "Silencer II",
+        "Shotgun Choke III",
+        "Shotgun Silencer",
+        "Extended Light Mag III",
+        "Extended Medium Mag III",
+        "Extended Shotgun Mag III"
+      ]
+    },
+    "recycles_into": {
+      "L": [
+        {
+          "M": {
+            "loot_name": { "S": "Steel Springs" },
+            "amount":    { "N": "4" }
+          }
+        },
+        {
+          "M": {
+            "loot_name": { "S": "ARC Alloys" },
+            "amount":    { "N": "3" }
+          }
+        }
+      ]
+    },
+    "craftable":       { "BOOL": true },
+    "craftable_using": {
+      "L": [
+        {
+          "M": {
+            "loot_name": { "S": "ARC Motion Core" },
+            "amount":    { "N": "1" }
+          }
+        },
+        {
+          "M": {
+            "loot_name": { "S": "Mechanical Components" },
+            "amount":    { "N": "1" }
+          }
+        }
+      ]
+    }
+  }
+  
+]

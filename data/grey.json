@@ -1,0 +1,453 @@
+[
+    {
+      "loot_name":       { "S": "ARC Powercells" },
+      "description":     { "S": "" },
+      "sell_value":      { "N": "" },
+      "rarity":          { "S": "Grey" },
+      "used_for_crafting": { "SS": [] },
+      "recycles_into":     { "L": [] },
+      "craftable":        { "BOOL": false },
+      "craftable_using":  { "L": [] }
+    },
+    {
+      "loot_name":       { "S": "Bandage" },
+      "description":     { "S": "" },
+      "sell_value":      { "N": "" },
+      "rarity":          { "S": "Grey" },
+      "used_for_crafting": { "SS": [] },
+      "recycles_into":     {
+        "L": [
+          { "M": { "loot_name": { "S": "Fabric" },       "amount": { "N": "4" } } }
+        ]
+      },
+      "craftable":        { "BOOL": true },
+      "craftable_using":  {
+        "L": [
+          { "M": { "loot_name": { "S": "Fabric" },       "amount": { "N": "4" } } }
+        ]
+      }
+    },
+    {
+      "loot_name":       { "S": "Binoculars" },
+      "description":     { "S": "" },
+      "sell_value":      { "N": "" },
+      "rarity":          { "S": "Grey" },
+      "used_for_crafting": { "SS": [] },
+      "recycles_into":     {
+        "L": [
+          { "M": { "loot_name": { "S": "Plastic Parts" }, "amount": { "N": "8" } } },
+          { "M": { "loot_name": { "S": "Rubber Parts" },  "amount": { "N": "4" } } }
+        ]
+      },
+      "craftable":        { "BOOL": true },
+      "craftable_using":  {
+        "L": [
+          { "M": { "loot_name": { "S": "Plastic Parts" }, "amount": { "N": "8" } } },
+          { "M": { "loot_name": { "S": "Rubber Parts" },  "amount": { "N": "4" } } }
+        ]
+      }
+    },
+    {
+      "loot_name":       { "S": "Chemicals" },
+      "description":     { "S": "" },
+      "sell_value":      { "N": "" },
+      "rarity":          { "S": "Grey" },
+      "used_for_crafting": {
+        "SS": [
+          "Medium ammo",
+          "Shotgun ammo",
+          "Heavy ammo",
+          "Light Impact Grenade",
+          "Gas Grenade",
+          "Smoke Grenade",
+          "Snap Blast Grenade",
+          "Remote Raider Flare",
+          "Adrenaline Shot",
+          "Explosive Mixture"
+        ]
+      },
+      "recycles_into":     { "L": [] },
+      "craftable":        { "BOOL": false },
+      "craftable_using":  { "L": [] }
+    },
+    {
+      "loot_name":       { "S": "Damaged Rocketeer Part" },
+      "description":     { "S": "" },
+      "sell_value":      { "N": "" },
+      "rarity":          { "S": "Grey" },
+      "used_for_crafting": { "SS": [] },
+      "recycles_into":     {
+        "L": [
+          { "M": { "loot_name": { "S": "ARC Alloys" },    "amount": { "N": "7" } } }
+        ]
+      },
+      "craftable":        { "BOOL": false },
+      "craftable_using":  { "L": [] }
+    },
+    {
+      "loot_name":       { "S": "Door Blocker" },
+      "description":     { "S": "" },
+      "sell_value":      { "N": "" },
+      "rarity":          { "S": "Grey" },
+      "used_for_crafting": { "SS": [] },
+      "recycles_into":     {
+        "L": [
+          { "M": { "loot_name": { "S": "Metal Parts" },   "amount": { "N": "3" } } },
+          { "M": { "loot_name": { "S": "Rubber Parts" },  "amount": { "N": "2" } } }
+        ]
+      },
+      "craftable":        { "BOOL": true },
+      "craftable_using":  {
+        "L": [
+          { "M": { "loot_name": { "S": "Metal Parts" },   "amount": { "N": "3" } } },
+          { "M": { "loot_name": { "S": "Rubber Parts" },  "amount": { "N": "2" } } }
+        ]
+      }
+    },
+    {
+      "loot_name":       { "S": "Dog Collar" },
+      "description":     { "S": "" },
+      "sell_value":      { "N": "" },
+      "rarity":          { "S": "Grey" },
+      "used_for_crafting": {
+        "SS": ["Scrappy Level II"]
+      },
+      "recycles_into":     {
+        "L": [
+          { "M": { "loot_name": { "S": "Fabric" },       "amount": { "N": "8" } } },
+          { "M": { "loot_name": { "S": "Metal Parts" },   "amount": { "N": "1" } } }
+        ]
+      },
+      "craftable":        { "BOOL": false },
+      "craftable_using":  { "L": [] }
+    },
+    {
+      "loot_name":       { "S": "Fabric" },
+      "description":     { "S": "" },
+      "sell_value":      { "N": "" },
+      "rarity":          { "S": "Grey" },
+      "used_for_crafting": {
+        "SS": [
+          "Equipment Bench Level I",
+          "Med Station Level I",
+          "Herbal Bandage",
+          "Sterilized Bandage",
+          "Rope",
+          "Polluted Air Filter"
+        ]
+      },
+      "recycles_into":     { "L": [] },
+      "craftable":        { "BOOL": false },
+      "craftable_using":  { "L": [] }
+    },
+    {
+      "loot_name":       { "S": "Fried Motherboard" },
+      "description":     { "S": "" },
+      "sell_value":      { "N": "" },
+      "rarity":          { "S": "Grey" },
+      "used_for_crafting": {
+        "SS": ["Utility Bench Level III"]
+      },
+      "recycles_into": {
+        "L": [
+          { "M": { "loot_name": { "S": "Plastic Parts" },  "amount": { "N": "5" } } },
+          { "M": { "loot_name": { "S": "Electrical Components" }, "amount": { "N": "1" } } }
+        ]
+      },
+      "craftable":        { "BOOL": false },
+      "craftable_using":  { "L": [] }
+    },
+    {
+      "loot_name":       { "S": "Heavy ammo" },
+      "description":     { "S": "" },
+      "sell_value":      { "N": "" },
+      "rarity":          { "S": "Grey" },
+      "used_for_crafting": { "SS": [] },
+      "recycles_into":     { "L": [] },
+      "craftable":        { "BOOL": true },
+      "craftable_using":  {
+        "L": [
+          { "M": { "loot_name": { "S": "Metal Parts" },   "amount": { "N": "5" } } },
+          { "M": { "loot_name": { "S": "Chemicals" },     "amount": { "N": "2" } } }
+        ]
+      }
+    },
+    {
+      "loot_name":       { "S": "Heavy Gun Parts" },
+      "description":     { "S": "" },
+      "sell_value":      { "N": "" },
+      "rarity":          { "S": "Grey" },
+      "used_for_crafting": { "SS": [] },
+      "recycles_into":     { "L": [] },
+      "craftable":        { "BOOL": false },
+      "craftable_using":  { "L": [] }
+    },
+    {
+      "loot_name":       { "S": "Ice Cream Scooper" },
+      "description":     { "S": "" },
+      "sell_value":      { "N": "" },
+      "rarity":          { "S": "Grey" },
+      "used_for_crafting": { "SS": [] },
+      "recycles_into": {
+        "L": [
+          { "M": { "loot_name": { "S": "Metal Parts" },   "amount": { "N": "7" } } }
+        ]
+      },
+      "craftable":        { "BOOL": false },
+      "craftable_using":  { "L": [] }
+    },
+    {
+      "loot_name":       { "S": "Industrial Battery" },
+      "description":     { "S": "" },
+      "sell_value":      { "N": "" },
+      "rarity":          { "S": "Grey" },
+      "used_for_crafting": {
+        "SS": ["Equipment Bench Level III"]
+      },
+      "recycles_into":     { "L": [] },
+      "craftable":        { "BOOL": false },
+      "craftable_using":  { "L": [] }
+    },
+    {
+      "loot_name":       { "S": "Light ammo" },
+      "description":     { "S": "" },
+      "sell_value":      { "N": "" },
+      "rarity":          { "S": "Grey" },
+      "used_for_crafting": { "SS": [] },
+      "recycles_into":     { "L": [] },
+      "craftable":        { "BOOL": true },
+      "craftable_using":  {
+        "L": [
+          { "M": { "loot_name": { "S": "Metal Parts" },   "amount": { "N": "4" } } }
+        ]
+      }
+    },
+    {
+      "loot_name":       { "S": "Light Gun Parts" },
+      "description":     { "S": "" },
+      "sell_value":      { "N": "" },
+      "rarity":          { "S": "Grey" },
+      "used_for_crafting": { "SS": [] },
+      "recycles_into":     { "L": [] },
+      "craftable":        { "BOOL": false },
+      "craftable_using":  { "L": [] }
+    },
+    {
+      "loot_name":       { "S": "Light Impact Grenade" },
+      "description":     { "S": "" },
+      "sell_value":      { "N": "" },
+      "rarity":          { "S": "Grey" },
+      "used_for_crafting": { "SS": [] },
+      "recycles_into": {
+        "L": [
+          { "M": { "loot_name": { "S": "Plastic Parts" }, "amount": { "N": "1" } } },
+          { "M": { "loot_name": { "S": "Chemicals" },     "amount": { "N": "3" } } }
+        ]
+      },
+      "craftable":        { "BOOL": true },
+      "craftable_using":  {
+        "L": [
+          { "M": { "loot_name": { "S": "Plastic Parts" }, "amount": { "N": "1" } } },
+          { "M": { "loot_name": { "S": "Chemicals" },     "amount": { "N": "3" } } }
+        ]
+      }
+    },
+    {
+      "loot_name":       { "S": "Medium ammo" },
+      "description":     { "S": "" },
+      "sell_value":      { "N": "" },
+      "rarity":          { "S": "Grey" },
+      "used_for_crafting": { "SS": [] },
+      "recycles_into":     { "L": [] },
+      "craftable":        { "BOOL": true },
+      "craftable_using":  {
+        "L": [
+          { "M": { "loot_name": { "S": "Metal Parts" },   "amount": { "N": "4" } } },
+          { "M": { "loot_name": { "S": "Chemicals" },     "amount": { "N": "2" } } }
+        ]
+      }
+    },
+    {
+      "loot_name":       { "S": "Medium Gun Parts" },
+      "description":     { "S": "" },
+      "sell_value":      { "N": "" },
+      "rarity":          { "S": "Grey" },
+      "used_for_crafting": { "SS": [] },
+      "recycles_into":     { "L": [] },
+      "craftable":        { "BOOL": false },
+      "craftable_using":  { "L": [] }
+    },
+    {
+      "loot_name":       { "S": "Metal Parts" },
+      "description":     { "S": "" },
+      "sell_value":      { "N": "" },
+      "rarity":          { "S": "Grey" },
+      "used_for_crafting": {
+        "SS": [
+          "Weapon Bench Level I",
+          "Refiner Level I",
+          "Light ammo",
+          "Medium ammo",
+          "Shotgun ammo",
+          "Heavy ammo",
+          "Shield Charge",
+          "Door Blocker",
+          "Barricade Kit",
+          "Zipline",
+          "Blaze Grenade"
+        ]
+      },
+      "recycles_into":     { "L": [] },
+      "craftable":        { "BOOL": false },
+      "craftable_using":  { "L": [] }
+    },
+    {
+      "loot_name":       { "S": "Plastic Parts" },
+      "description":     { "S": "" },
+      "sell_value":      { "N": "" },
+      "rarity":          { "S": "Grey" },
+      "used_for_crafting": {
+        "SS": [
+          "Equipment Bench Level I",
+          "Utility Bench Level I",
+          "Binoculars",
+          "Light Impact Grenade",
+          "Lure Grenade",
+          "Tagging Grenade",
+          "Flute",
+          "Electrical Components",
+          "Fried Motherboard",
+          "Remote Control"
+        ]
+      },
+      "recycles_into":     { "L": [] },
+      "craftable":        { "BOOL": false },
+      "craftable_using":  { "L": [] }
+    },
+    {
+      "loot_name":       { "S": "Rope" },
+      "description":     { "S": "" },
+      "sell_value":      { "N": "" },
+      "rarity":          { "S": "Grey" },
+      "used_for_crafting": {
+        "SS": ["Zipline","Snap Hook"]
+      },
+      "recycles_into":     {
+        "L": [
+          { "M": { "loot_name": { "S": "Fabric" },       "amount": { "N": "5" } } }
+        ]
+      },
+      "craftable":        { "BOOL": true },
+      "craftable_using":  {
+        "L": [
+          { "M": { "loot_name": { "S": "Fabric" },       "amount": { "N": "5" } } }
+        ]
+      }
+    },
+    {
+      "loot_name":       { "S": "Remote Control" },
+      "description":     { "S": "" },
+      "sell_value":      { "N": "" },
+      "rarity":          { "S": "Grey" },
+      "used_for_crafting": { "SS": [] },
+      "recycles_into":     {
+        "L": [
+          { "M": { "loot_name": { "S": "Plastic Parts" }, "amount": { "N": "2" } } },
+          { "M": { "loot_name": { "S": "Sensors" },        "amount": { "N": "1" } } }
+        ]
+      },
+      "craftable":        { "BOOL": false },
+      "craftable_using":  { "L": [] }
+    },
+    {
+      "loot_name":       { "S": "Rubber Parts" },
+      "description":     { "S": "" },
+      "sell_value":      { "N": "" },
+      "rarity":          { "S": "Grey" },
+      "used_for_crafting": {
+        "SS": [
+          "Weapon Bench Level I",
+          "Explosives Bench Level I",
+          "Binoculars",
+          "Door Blocker",
+          "Remote Raider Flare",
+          "Gas Grenade",
+          "Raider Augment I",
+          "Raider Augment II"
+        ]
+      },
+      "recycles_into":     { "L": [] },
+      "craftable":        { "BOOL": false },
+      "craftable_using":  { "L": [] }
+    },
+    {
+      "loot_name":       { "S": "Shotgun ammo" },
+      "description":     { "S": "" },
+      "sell_value":      { "N": "" },
+      "rarity":          { "S": "Grey" },
+      "used_for_crafting": { "SS": [] },
+      "recycles_into":     { "L": [] },
+      "craftable":        { "BOOL": true },
+      "craftable_using":  {
+        "L": [
+          { "M": { "loot_name": { "S": "Metal Parts" },   "amount": { "N": "4" } } },
+          { "M": { "loot_name": { "S": "Chemicals" },     "amount": { "N": "2" } } }
+        ]
+      }
+    },
+    {
+      "loot_name":       { "S": "Shotgun Gun Parts" },
+      "description":     { "S": "" },
+      "sell_value":      { "N": "" },
+      "rarity":          { "S": "Grey" },
+      "used_for_crafting": { "SS": [] },
+      "recycles_into":     { "L": [] },
+      "craftable":        { "BOOL": false },
+      "craftable_using":  { "L": [] }
+    },
+    {
+      "loot_name":       { "S": "Tattered Clothes" },
+      "description":     { "S": "" },
+      "sell_value":      { "N": "" },
+      "rarity":          { "S": "Grey" },
+      "used_for_crafting": { "SS": [] },
+      "recycles_into":     {
+        "L": [
+          { "M": { "loot_name": { "S": "Fabric" },       "amount": { "N": "11" } } }
+        ]
+      },
+      "craftable":        { "BOOL": false },
+      "craftable_using":  { "L": [] }
+    },
+    {
+      "loot_name":       { "S": "Torn Blanket" },
+      "description":     { "S": "" },
+      "sell_value":      { "N": "" },
+      "rarity":          { "S": "Grey" },
+      "used_for_crafting": {
+        "SS": ["Scrappy Level II"]
+      },
+      "recycles_into":     {
+        "L": [
+          { "M": { "loot_name": { "S": "Fabric" },       "amount": { "N": "12" } } }
+        ]
+      },
+      "craftable":        { "BOOL": true },
+      "craftable_using":  {
+        "L": [
+          { "M": { "loot_name": { "S": "Fabric" },       "amount": { "N": "12" } } }
+        ]
+      }
+    },
+    {
+      "loot_name":       { "S": "Wasp Drive" },
+      "description":     { "S": "" },
+      "sell_value":      { "N": "" },
+      "rarity":          { "S": "Grey" },
+      "used_for_crafting": { "SS": [] },
+      "recycles_into":     { "L": [] },
+      "craftable":        { "BOOL": false },
+      "craftable_using":  { "L": [] }
+    }
+  ]
+  

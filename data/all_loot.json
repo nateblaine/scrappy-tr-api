@@ -1,0 +1,1805 @@
+[
+  {
+    "craftable": false,
+    "description": "",
+    "sell_value": "0",
+    "recycles_into": [
+      {
+        "amount": "7",
+        "loot_name": "Metal Parts"
+      },
+      {
+        "amount": "4",
+        "loot_name": "Wires"
+      }
+    ],
+    "loot_name": "Damaged Heat Sink",
+    "rarity": "Blue"
+  },
+  {
+    "craftable": false,
+    "description": "",
+    "sell_value": "0",
+    "recycles_into": [
+      {
+        "amount": "2",
+        "loot_name": "ARC Alloys"
+      }
+    ],
+    "loot_name": "Burned ARC Circuitry",
+    "rarity": "Green"
+  },
+  {
+    "craftable": true,
+    "description": "",
+    "craftable_using": [
+      {
+        "amount": "10",
+        "loot_name": "ARC Alloy"
+      },
+      {
+        "amount": "5",
+        "loot_name": "Voltage Converter"
+      }
+    ],
+    "sell_value": "15000",
+    "loot_name": "Heavy Shield",
+    "rarity": "Purple"
+  },
+  {
+    "used_for_crafting": "{'Antiseptic', 'Herbal Bandage'}",
+    "recycles_into": [
+      {
+        "amount": "3",
+        "loot_name": "Chemicals"
+      }
+    ],
+    "rarity": "Green",
+    "craftable": false,
+    "description": "",
+    "sell_value": "0",
+    "loot_name": "Torch Ginger"
+  },
+  {
+    "craftable": false,
+    "description": "",
+    "sell_value": "0",
+    "recycles_into": [
+      {
+        "amount": "3",
+        "loot_name": "Plastic Parts"
+      }
+    ],
+    "loot_name": "Crumpled Plastic Bottle",
+    "rarity": "Green"
+  },
+  {
+    "craftable": false,
+    "description": "",
+    "used_for_crafting": "{'Utility Bench Level I', 'Fried Motherboard', 'Light Impact Grenade', 'Flute', 'Binoculars', 'Lure Grenade', 'Remote Control', 'Equipment Bench Level I', 'Electrical Components', 'Tagging Grenade'}",
+    "sell_value": "0",
+    "loot_name": "Plastic Parts",
+    "rarity": "Grey"
+  },
+  {
+    "craftable": false,
+    "description": "",
+    "used_for_crafting": "{'Explosives Bench Level I', 'Raider Augment I', 'Binoculars', 'Raider Augment II', 'Remote Raider Flare', 'Weapon Bench Level I', 'Gas Grenade', 'Door Blocker'}",
+    "sell_value": "0",
+    "loot_name": "Rubber Parts",
+    "rarity": "Grey"
+  },
+  {
+    "craftable": true,
+    "description": "",
+    "craftable_using": [
+      {
+        "amount": "4",
+        "loot_name": "Plastic Parts"
+      },
+      {
+        "amount": "2",
+        "loot_name": "Sensors"
+      }
+    ],
+    "sell_value": "0",
+    "loot_name": "Tagging Grenade",
+    "rarity": "Blue"
+  },
+  {
+    "craftable": false,
+    "description": "",
+    "sell_value": "0",
+    "recycles_into": [
+      {
+        "amount": "4",
+        "loot_name": "Chemicals"
+      },
+      {
+        "amount": "2",
+        "loot_name": "Rubber Parts"
+      }
+    ],
+    "loot_name": "Gas Grenade",
+    "rarity": "Green"
+  },
+  {
+    "craftable": true,
+    "description": "",
+    "craftable_using": [
+      {
+        "amount": "4",
+        "loot_name": "Metal Parts"
+      },
+      {
+        "amount": "2",
+        "loot_name": "Chemicals"
+      }
+    ],
+    "sell_value": "0",
+    "loot_name": "Medium ammo",
+    "rarity": "Grey"
+  },
+  {
+    "used_for_crafting": "{'Weapon Bench Level\\xa0III'}",
+    "craftable_using": [
+      {
+        "amount": "1",
+        "loot_name": "ARC Motion Core"
+      },
+      {
+        "amount": "1",
+        "loot_name": "Mechanical Components"
+      }
+    ],
+    "recycles_into": [
+      {
+        "amount": "4",
+        "loot_name": "Steel Springs"
+      },
+      {
+        "amount": "3",
+        "loot_name": "ARC Alloys"
+      }
+    ],
+    "rarity": "Purple",
+    "craftable": true,
+    "description": "",
+    "sell_value": "0",
+    "loot_name": "Advanced Mechanical Components"
+  },
+  {
+    "craftable": false,
+    "description": "",
+    "used_for_crafting": "{'Light Impact Grenade', 'Smoke Grenade', 'Medium ammo', 'Explosive Mixture', 'Heavy ammo', 'Shotgun ammo', 'Snap Blast Grenade', 'Remote Raider Flare', 'Gas Grenade', 'Adrenaline Shot'}",
+    "sell_value": "0",
+    "loot_name": "Chemicals",
+    "rarity": "Grey"
+  },
+  {
+    "craftable": false,
+    "description": "",
+    "sell_value": "0",
+    "loot_name": "Light Gun Parts",
+    "rarity": "Grey"
+  },
+  {
+    "craftable": false,
+    "description": "",
+    "sell_value": "0",
+    "recycles_into": [
+      {
+        "amount": "2",
+        "loot_name": "ARC Alloys"
+      }
+    ],
+    "loot_name": "Damaged ARC Motion Core",
+    "rarity": "Green"
+  },
+  {
+    "craftable": false,
+    "description": "",
+    "used_for_crafting": "{'Equipment Bench Level\\xa0III'}",
+    "sell_value": "0",
+    "loot_name": "Industrial Battery",
+    "rarity": "Grey"
+  },
+  {
+    "craftable": false,
+    "description": "",
+    "used_for_crafting": "{'Equipment Bench Level\\xa0III'}",
+    "sell_value": "0",
+    "loot_name": "Rollbot Part",
+    "rarity": "Purple"
+  },
+  {
+    "used_for_crafting": "{'Med Station Level\\xa0III'}",
+    "recycles_into": [
+      {
+        "amount": "2",
+        "loot_name": "Syringe"
+      },
+      {
+        "amount": "1",
+        "loot_name": "Antiseptic"
+      }
+    ],
+    "rarity": "Blue",
+    "craftable": false,
+    "description": "",
+    "sell_value": "0",
+    "loot_name": "Rusted Shut Medical Kit"
+  },
+  {
+    "craftable": false,
+    "description": "",
+    "sell_value": "0",
+    "recycles_into": [
+      {
+        "amount": "1",
+        "loot_name": "ARC Alloys"
+      }
+    ],
+    "loot_name": "Damaged Wasp Drive",
+    "rarity": "Green"
+  },
+  {
+    "craftable": false,
+    "description": "",
+    "sell_value": "1000",
+    "loot_name": "Energy ammo",
+    "rarity": "Blue"
+  },
+  {
+    "used_for_crafting": "{'Med Station Level\\xa0II'}",
+    "craftable_using": [
+      {
+        "amount": "3",
+        "loot_name": "Plastic Parts"
+      },
+      {
+        "amount": "2",
+        "loot_name": "Chemicals"
+      }
+    ],
+    "recycles_into": [
+      {
+        "amount": "3",
+        "loot_name": "Plastic Parts"
+      },
+      {
+        "amount": "2",
+        "loot_name": "Chemicals"
+      }
+    ],
+    "rarity": "Green",
+    "craftable": true,
+    "description": "",
+    "sell_value": "0",
+    "loot_name": "Syringe"
+  },
+  {
+    "used_for_crafting": "{'Explosives Bench Level\\xa0II'}",
+    "recycles_into": [
+      {
+        "amount": "1",
+        "loot_name": "Oil"
+      },
+      {
+        "amount": "14",
+        "loot_name": "Chemicals"
+      }
+    ],
+    "rarity": "Green",
+    "craftable": false,
+    "description": "",
+    "sell_value": "0",
+    "loot_name": "Synthesized Fuel"
+  },
+  {
+    "used_for_crafting": "{'Utility Bench Level\\xa0III', 'Snap Hook', 'Equipment Bench Level\\xa0III', 'Photoelectric Cloak'}",
+    "craftable_using": [
+      {
+        "amount": "1",
+        "loot_name": "ARC Circuitry"
+      },
+      {
+        "amount": "1",
+        "loot_name": "Electrical Components"
+      }
+    ],
+    "recycles_into": [
+      {
+        "amount": "4",
+        "loot_name": "Wires"
+      },
+      {
+        "amount": "3",
+        "loot_name": "ARC Alloy"
+      }
+    ],
+    "rarity": "Purple",
+    "craftable": true,
+    "description": "",
+    "sell_value": "0",
+    "loot_name": "Advanced Electrical Components"
+  },
+  {
+    "used_for_crafting": "{'Weapon Bench Level\\xa0II'}",
+    "craftable_using": [
+      {
+        "amount": "15",
+        "loot_name": "Metal Parts"
+      },
+      {
+        "amount": "3",
+        "loot_name": "Steel Spring"
+      }
+    ],
+    "recycles_into": [
+      {
+        "amount": "8",
+        "loot_name": "Metal Parts"
+      },
+      {
+        "amount": "2",
+        "loot_name": "Steel Springs"
+      }
+    ],
+    "rarity": "Green",
+    "craftable": true,
+    "description": "",
+    "sell_value": "0",
+    "loot_name": "Mechanical Components"
+  },
+  {
+    "craftable": false,
+    "description": "",
+    "sell_value": "0",
+    "recycles_into": [
+      {
+        "amount": "8",
+        "loot_name": "Fabric"
+      },
+      {
+        "amount": "3",
+        "loot_name": "Oil"
+      }
+    ],
+    "loot_name": "Coolant",
+    "rarity": "Blue"
+  },
+  {
+    "craftable": false,
+    "description": "",
+    "sell_value": "0",
+    "recycles_into": [
+      {
+        "amount": "4",
+        "loot_name": "Battery"
+      },
+      {
+        "amount": "2",
+        "loot_name": "Wires"
+      }
+    ],
+    "loot_name": "Power Bank",
+    "rarity": "Green"
+  },
+  {
+    "craftable": false,
+    "description": "",
+    "sell_value": "0",
+    "loot_name": "ARC Powercells",
+    "rarity": "Grey"
+  },
+  {
+    "craftable": false,
+    "description": "",
+    "used_for_crafting": "{'Sterilized Bandage', 'Rope', 'Herbal Bandage', 'Equipment Bench Level I', 'Med Station Level I', 'Polluted Air Filter'}",
+    "sell_value": "0",
+    "loot_name": "Fabric",
+    "rarity": "Grey"
+  },
+  {
+    "craftable": false,
+    "description": "",
+    "sell_value": "0",
+    "recycles_into": [
+      {
+        "amount": "22",
+        "loot_name": "Rubber Parts"
+      }
+    ],
+    "loot_name": "Rubber Pad",
+    "rarity": "Blue"
+  },
+  {
+    "craftable": false,
+    "description": "",
+    "sell_value": "0",
+    "recycles_into": [
+      {
+        "amount": "6",
+        "loot_name": "Chemicals"
+      },
+      {
+        "amount": "4",
+        "loot_name": "Steel Springs"
+      }
+    ],
+    "loot_name": "Cooling Coil",
+    "rarity": "Blue"
+  },
+  {
+    "used_for_crafting": "{'Advanced Mechanical Components', 'Refiner Level I'}",
+    "craftable_using": [
+      {
+        "amount": "5",
+        "loot_name": "ARC Alloy"
+      }
+    ],
+    "recycles_into": [
+      {
+        "amount": "2",
+        "loot_name": "ARC Alloys"
+      }
+    ],
+    "rarity": "Blue",
+    "craftable": true,
+    "description": "",
+    "sell_value": "0",
+    "loot_name": "ARC Motion Core"
+  },
+  {
+    "craftable": true,
+    "description": "",
+    "craftable_using": [
+      {
+        "amount": "1",
+        "loot_name": "Electrical Components"
+      },
+      {
+        "amount": "2",
+        "loot_name": "Processor"
+      }
+    ],
+    "sell_value": "0",
+    "loot_name": "Raider Augment III",
+    "rarity": "Purple"
+  },
+  {
+    "used_for_crafting": "{'Barricade Kit', 'Mechanical Components'}",
+    "recycles_into": [
+      {
+        "amount": "3",
+        "loot_name": "Metal Parts"
+      }
+    ],
+    "rarity": "Green",
+    "craftable": false,
+    "description": "",
+    "sell_value": "0",
+    "loot_name": "Steel Spring"
+  },
+  {
+    "craftable_using": [
+      {
+        "amount": "3",
+        "loot_name": "Metal Parts"
+      },
+      {
+        "amount": "2",
+        "loot_name": "Rubber Parts"
+      }
+    ],
+    "recycles_into": [
+      {
+        "amount": "3",
+        "loot_name": "Metal Parts"
+      },
+      {
+        "amount": "2",
+        "loot_name": "Rubber Parts"
+      }
+    ],
+    "rarity": "Grey",
+    "craftable": true,
+    "description": "",
+    "sell_value": "0",
+    "loot_name": "Door Blocker"
+  },
+  {
+    "used_for_crafting": "{'Shield Charge'}",
+    "recycles_into": [
+      {
+        "amount": "2",
+        "loot_name": "Metal Parts"
+      }
+    ],
+    "rarity": "Green",
+    "craftable": false,
+    "description": "",
+    "sell_value": "0",
+    "loot_name": "Battery"
+  },
+  {
+    "craftable": true,
+    "description": "",
+    "craftable_using": [
+      {
+        "amount": "4",
+        "loot_name": "Metal Parts"
+      }
+    ],
+    "sell_value": "0",
+    "loot_name": "Light ammo",
+    "rarity": "Grey"
+  },
+  {
+    "craftable": false,
+    "description": "",
+    "used_for_crafting": "{'Refiner Level\\xa0III'}",
+    "sell_value": "0",
+    "loot_name": "Queen Part",
+    "rarity": "Purple"
+  },
+  {
+    "used_for_crafting": "{'Refiner Level\\xa0III'}",
+    "recycles_into": [
+      {
+        "amount": "2",
+        "loot_name": "Oil"
+      },
+      {
+        "amount": "1",
+        "loot_name": "Mechanical Components"
+      }
+    ],
+    "rarity": "Green",
+    "craftable": false,
+    "description": "",
+    "sell_value": "0",
+    "loot_name": "Motor"
+  },
+  {
+    "craftable": true,
+    "description": "",
+    "craftable_using": [
+      {
+        "amount": "8",
+        "loot_name": "Power Rod"
+      },
+      {
+        "amount": "20",
+        "loot_name": "Processor"
+      }
+    ],
+    "sell_value": "0",
+    "loot_name": "Jupiter I",
+    "rarity": "Gold"
+  },
+  {
+    "craftable": false,
+    "description": "",
+    "sell_value": "0",
+    "recycles_into": [
+      {
+        "amount": "2",
+        "loot_name": "Plastic Parts"
+      },
+      {
+        "amount": "1",
+        "loot_name": "Sensors"
+      }
+    ],
+    "loot_name": "Remote Control",
+    "rarity": "Grey"
+  },
+  {
+    "craftable_using": [
+      {
+        "amount": "8",
+        "loot_name": "Plastic Parts"
+      },
+      {
+        "amount": "4",
+        "loot_name": "Rubber Parts"
+      }
+    ],
+    "recycles_into": [
+      {
+        "amount": "8",
+        "loot_name": "Plastic Parts"
+      },
+      {
+        "amount": "4",
+        "loot_name": "Rubber Parts"
+      }
+    ],
+    "rarity": "Grey",
+    "craftable": true,
+    "description": "",
+    "sell_value": "0",
+    "loot_name": "Binoculars"
+  },
+  {
+    "craftable": true,
+    "description": "",
+    "craftable_using": [
+      {
+        "amount": "1",
+        "loot_name": "Antiseptic"
+      },
+      {
+        "amount": "1",
+        "loot_name": "Syringe"
+      }
+    ],
+    "sell_value": "0",
+    "loot_name": "Vita Shot",
+    "rarity": "Blue"
+  },
+  {
+    "craftable": false,
+    "description": "",
+    "sell_value": "0",
+    "recycles_into": [
+      {
+        "amount": "3",
+        "loot_name": "Battery"
+      },
+      {
+        "amount": "7",
+        "loot_name": "Metal Parts"
+      }
+    ],
+    "loot_name": "Broken Flashlight",
+    "rarity": "Blue"
+  },
+  {
+    "used_for_crafting": "{'Scrappy Level II'}",
+    "recycles_into": [
+      {
+        "amount": "8",
+        "loot_name": "Fabric"
+      },
+      {
+        "amount": "1",
+        "loot_name": "Metal Parts"
+      }
+    ],
+    "rarity": "Grey",
+    "craftable": false,
+    "description": "",
+    "sell_value": "0",
+    "loot_name": "Dog Collar"
+  },
+  {
+    "craftable": true,
+    "description": "",
+    "craftable_using": [
+      {
+        "amount": "2",
+        "loot_name": "Chemicals"
+      },
+      {
+        "amount": "4",
+        "loot_name": "Rubber Parts"
+      }
+    ],
+    "sell_value": "0",
+    "loot_name": "Remote Raider Flare",
+    "rarity": "Green"
+  },
+  {
+    "craftable": false,
+    "description": "",
+    "sell_value": "0",
+    "loot_name": "Cooling Fan",
+    "rarity": "Blue"
+  },
+  {
+    "craftable": false,
+    "description": "",
+    "sell_value": "0",
+    "recycles_into": [
+      {
+        "amount": "3",
+        "loot_name": "Fabric"
+      }
+    ],
+    "loot_name": "Duct Tape",
+    "rarity": "Green"
+  },
+  {
+    "used_for_crafting": "{'Jump Mine', 'Explosives Bench Level II'}",
+    "craftable_using": [
+      {
+        "amount": "1",
+        "loot_name": "Oil"
+      },
+      {
+        "amount": "14",
+        "loot_name": "Chemicals"
+      }
+    ],
+    "recycles_into": [
+      {
+        "amount": "10",
+        "loot_name": "Chemicals"
+      }
+    ],
+    "rarity": "Blue",
+    "craftable": true,
+    "description": "",
+    "sell_value": "0",
+    "loot_name": "Explosive Mixture"
+  },
+  {
+    "craftable": false,
+    "description": "",
+    "sell_value": "0",
+    "loot_name": "Heavy Gun Parts",
+    "rarity": "Grey"
+  },
+  {
+    "craftable": true,
+    "description": "",
+    "craftable_using": [
+      {
+        "amount": "8",
+        "loot_name": "Fabric"
+      },
+      {
+        "amount": "1",
+        "loot_name": "Torch Ginger"
+      }
+    ],
+    "sell_value": "0",
+    "loot_name": "Herbal Bandage",
+    "rarity": "Green"
+  },
+  {
+    "craftable_using": [
+      {
+        "amount": "1",
+        "loot_name": "ARC Alloy"
+      },
+      {
+        "amount": "8",
+        "loot_name": "Fabric"
+      }
+    ],
+    "recycles_into": [
+      {
+        "amount": "1",
+        "loot_name": "ARC Alloy"
+      },
+      {
+        "amount": "8",
+        "loot_name": "Fabric"
+      }
+    ],
+    "rarity": "Green",
+    "craftable": true,
+    "description": "",
+    "sell_value": "2000",
+    "loot_name": "Light Shield"
+  },
+  {
+    "used_for_crafting": "{'Weapon Bench Level\\xa0II'}",
+    "recycles_into": [
+      {
+        "amount": "14",
+        "loot_name": "Metal Parts"
+      },
+      {
+        "amount": "1",
+        "loot_name": "Steel Springs"
+      }
+    ],
+    "rarity": "Green",
+    "craftable": false,
+    "description": "",
+    "sell_value": "0",
+    "loot_name": "Rusted Tools"
+  },
+  {
+    "used_for_crafting": "{'Shotgun Choke III', 'Extended Shotgun Mag III', 'Extended Light Mag III', 'Shotgun Silencer', 'Extended Medium Mag III', 'Padded Stock', 'Silencer II'}",
+    "craftable_using": [
+      {
+        "amount": "1",
+        "loot_name": "ARC Motion Core"
+      },
+      {
+        "amount": "1",
+        "loot_name": "Mechanical Components"
+      }
+    ],
+    "recycles_into": [
+      {
+        "amount": "4",
+        "loot_name": "Steel Springs"
+      },
+      {
+        "amount": "3",
+        "loot_name": "ARC Alloys"
+      }
+    ],
+    "rarity": "Purple",
+    "craftable": true,
+    "description": "",
+    "sell_value": "0",
+    "loot_name": "Mod Components"
+  },
+  {
+    "craftable": false,
+    "description": "",
+    "sell_value": "0",
+    "recycles_into": [
+      {
+        "amount": "2",
+        "loot_name": "Plastic Parts"
+      },
+      {
+        "amount": "2",
+        "loot_name": "Rubber Parts"
+      }
+    ],
+    "loot_name": "Speaker Component",
+    "rarity": "Green"
+  },
+  {
+    "craftable": false,
+    "description": "",
+    "sell_value": "0",
+    "recycles_into": [
+      {
+        "amount": "8",
+        "loot_name": "Fabric"
+      },
+      {
+        "amount": "3",
+        "loot_name": "Oil"
+      }
+    ],
+    "loot_name": "Polluted Air Filter",
+    "rarity": "Green"
+  },
+  {
+    "craftable": true,
+    "description": "",
+    "craftable_using": [
+      {
+        "amount": "4",
+        "loot_name": "ARC Alloy"
+      },
+      {
+        "amount": "2",
+        "loot_name": "Voltage Converter"
+      }
+    ],
+    "sell_value": "6000",
+    "loot_name": "Medium Shield",
+    "rarity": "Blue"
+  },
+  {
+    "craftable": true,
+    "description": "",
+    "craftable_using": [
+      {
+        "amount": "5",
+        "loot_name": "Metal Parts"
+      },
+      {
+        "amount": "2",
+        "loot_name": "Chemicals"
+      }
+    ],
+    "sell_value": "0",
+    "loot_name": "Heavy ammo",
+    "rarity": "Grey"
+  },
+  {
+    "used_for_crafting": "{'Refiner Level\\xa0II', 'Utility Bench Level\\xa0II', 'Electrical Components'}",
+    "recycles_into": [
+      {
+        "amount": "2",
+        "loot_name": "Rubber Parts"
+      }
+    ],
+    "rarity": "Green",
+    "craftable": false,
+    "description": "",
+    "sell_value": "0",
+    "loot_name": "Wires"
+  },
+  {
+    "craftable": false,
+    "description": "",
+    "sell_value": "0",
+    "recycles_into": [
+      {
+        "amount": "13",
+        "loot_name": "Chemicals"
+      }
+    ],
+    "loot_name": "Impure ARC Coolant",
+    "rarity": "Green"
+  },
+  {
+    "craftable": false,
+    "description": "",
+    "sell_value": "0",
+    "recycles_into": [
+      {
+        "amount": "3",
+        "loot_name": "Metal Parts"
+      }
+    ],
+    "loot_name": "Simple Gun Parts",
+    "rarity": "Green"
+  },
+  {
+    "craftable": false,
+    "description": "",
+    "sell_value": "0",
+    "recycles_into": [
+      {
+        "amount": "18",
+        "loot_name": "Rubber Parts"
+      },
+      {
+        "amount": "3",
+        "loot_name": "Steel Springs"
+      }
+    ],
+    "loot_name": "Accordion",
+    "rarity": "Blue"
+  },
+  {
+    "craftable": false,
+    "description": "",
+    "sell_value": "0",
+    "loot_name": "Wolfpack",
+    "rarity": "Purple"
+  },
+  {
+    "craftable": false,
+    "description": "",
+    "sell_value": "0",
+    "recycles_into": [
+      {
+        "amount": "8",
+        "loot_name": "Metal Parts"
+      }
+    ],
+    "loot_name": "Candle Holder",
+    "rarity": "Green"
+  },
+  {
+    "craftable": false,
+    "description": "",
+    "sell_value": "0",
+    "recycles_into": [
+      {
+        "amount": "7",
+        "loot_name": "Metal Parts"
+      }
+    ],
+    "loot_name": "Ice Cream Scooper",
+    "rarity": "Grey"
+  },
+  {
+    "used_for_crafting": "{'Snap Blast Grenade'}",
+    "recycles_into": [
+      {
+        "amount": "3",
+        "loot_name": "Metal Parts"
+      }
+    ],
+    "rarity": "Green",
+    "craftable": false,
+    "description": "",
+    "sell_value": "0",
+    "loot_name": "Magnet"
+  },
+  {
+    "craftable": true,
+    "description": "",
+    "craftable_using": [
+      {
+        "amount": "7",
+        "loot_name": "Chemicals"
+      },
+      {
+        "amount": "1",
+        "loot_name": "Magnet"
+      }
+    ],
+    "sell_value": "1920",
+    "loot_name": "Snap Blast Grenade",
+    "rarity": "Blue"
+  },
+  {
+    "craftable": false,
+    "description": "",
+    "sell_value": "0",
+    "recycles_into": [
+      {
+        "amount": "11",
+        "loot_name": "Fabric"
+      }
+    ],
+    "loot_name": "Tattered Clothes",
+    "rarity": "Grey"
+  },
+  {
+    "used_for_crafting": "{'Equipment Bench Level\\xa0II'}",
+    "recycles_into": [
+      {
+        "amount": "7",
+        "loot_name": "Wires"
+      }
+    ],
+    "rarity": "Green",
+    "craftable": false,
+    "description": "",
+    "sell_value": "0",
+    "loot_name": "Power Cables"
+  },
+  {
+    "craftable": false,
+    "description": "",
+    "sell_value": "0",
+    "recycles_into": [
+      {
+        "amount": "6",
+        "loot_name": "Metal Parts"
+      },
+      {
+        "amount": "3",
+        "loot_name": "Oil"
+      }
+    ],
+    "loot_name": "Water Pump",
+    "rarity": "Green"
+  },
+  {
+    "craftable": true,
+    "description": "",
+    "craftable_using": [
+      {
+        "amount": "3",
+        "loot_name": "Plastic Parts"
+      },
+      {
+        "amount": "1",
+        "loot_name": "Moss"
+      }
+    ],
+    "sell_value": "1280",
+    "loot_name": "Defibrillator",
+    "rarity": "Blue"
+  },
+  {
+    "used_for_crafting": "{'Med Station Level\\xa0III'}",
+    "recycles_into": [
+      {
+        "amount": "1",
+        "loot_name": "ARC Motion Core"
+      },
+      {
+        "amount": "2",
+        "loot_name": "ARC Alloys"
+      }
+    ],
+    "rarity": "Purple",
+    "craftable": false,
+    "description": "",
+    "sell_value": "0",
+    "loot_name": "Bastion Part"
+  },
+  {
+    "craftable": false,
+    "description": "",
+    "used_for_crafting": "{'Zipline', 'Refiner Level I', 'Medium ammo', 'Barricade Kit', 'Heavy ammo', 'Shotgun ammo', 'Light ammo', 'Shield Charge', 'Weapon Bench Level I', 'Blaze Grenade', 'Door Blocker'}",
+    "sell_value": "0",
+    "loot_name": "Metal Parts",
+    "rarity": "Grey"
+  },
+  {
+    "craftable": false,
+    "description": "",
+    "sell_value": "0",
+    "recycles_into": [
+      {
+        "amount": "7",
+        "loot_name": "ARC Alloys"
+      }
+    ],
+    "loot_name": "Damaged Rocketeer Part",
+    "rarity": "Grey"
+  },
+  {
+    "used_for_crafting": "{'Refiner Level\\xa0II'}",
+    "recycles_into": [
+      {
+        "amount": "2",
+        "loot_name": "ARC Alloys"
+      }
+    ],
+    "rarity": "Green",
+    "craftable": false,
+    "description": "",
+    "sell_value": "0",
+    "loot_name": "ARC Circuitry"
+  },
+  {
+    "used_for_crafting": "{'Smoke Grenade'}",
+    "recycles_into": [
+      {
+        "amount": "3",
+        "loot_name": "Plastic Parts"
+      }
+    ],
+    "rarity": "Green",
+    "craftable": false,
+    "description": "",
+    "sell_value": "0",
+    "loot_name": "Canister"
+  },
+  {
+    "craftable": false,
+    "description": "",
+    "sell_value": "0",
+    "recycles_into": [
+      {
+        "amount": "10",
+        "loot_name": "Plastic Parts"
+      }
+    ],
+    "loot_name": "Flute",
+    "rarity": "Blue"
+  },
+  {
+    "craftable": false,
+    "description": "",
+    "sell_value": "0",
+    "loot_name": "Wasp Drive",
+    "rarity": "Grey"
+  },
+  {
+    "used_for_crafting": "{'Refiner Level\\xa0II'}",
+    "craftable_using": [
+      {
+        "amount": "5",
+        "loot_name": "Plastic Parts"
+      },
+      {
+        "amount": "5",
+        "loot_name": "Wires"
+      }
+    ],
+    "recycles_into": [
+      {
+        "amount": "5",
+        "loot_name": "Plastic Parts"
+      },
+      {
+        "amount": "5",
+        "loot_name": "Wires"
+      }
+    ],
+    "rarity": "Green",
+    "craftable": true,
+    "description": "",
+    "sell_value": "0",
+    "loot_name": "Toaster"
+  },
+  {
+    "craftable": false,
+    "description": "",
+    "sell_value": "0",
+    "recycles_into": [
+      {
+        "amount": "8",
+        "loot_name": "Plastic Parts"
+      }
+    ],
+    "loot_name": "Camera Lens",
+    "rarity": "Green"
+  },
+  {
+    "craftable": true,
+    "description": "",
+    "craftable_using": [
+      {
+        "amount": "1",
+        "loot_name": "Power Rod"
+      },
+      {
+        "amount": "4",
+        "loot_name": "Processor"
+      }
+    ],
+    "sell_value": "0",
+    "loot_name": "Raider Augment IV",
+    "rarity": "Gold"
+  },
+  {
+    "craftable": true,
+    "description": "",
+    "craftable_using": [
+      {
+        "amount": "4",
+        "loot_name": "Metal Parts"
+      },
+      {
+        "amount": "2",
+        "loot_name": "Chemicals"
+      }
+    ],
+    "sell_value": "0",
+    "loot_name": "Shotgun ammo",
+    "rarity": "Grey"
+  },
+  {
+    "craftable_using": [
+      {
+        "amount": "1",
+        "loot_name": "Plastic Parts"
+      },
+      {
+        "amount": "3",
+        "loot_name": "Chemicals"
+      }
+    ],
+    "recycles_into": [
+      {
+        "amount": "1",
+        "loot_name": "Plastic Parts"
+      },
+      {
+        "amount": "3",
+        "loot_name": "Chemicals"
+      }
+    ],
+    "rarity": "Grey",
+    "craftable": true,
+    "description": "",
+    "sell_value": "0",
+    "loot_name": "Light Impact Grenade"
+  },
+  {
+    "used_for_crafting": "{'Utility Bench Level II', 'Power Rod', 'Raider Augment III', 'Equipment Bench Level II'}",
+    "craftable_using": [
+      {
+        "amount": "20",
+        "loot_name": "Plastic Parts"
+      },
+      {
+        "amount": "4",
+        "loot_name": "Wires"
+      }
+    ],
+    "recycles_into": [
+      {
+        "amount": "8",
+        "loot_name": "Plastic Parts"
+      },
+      {
+        "amount": "3",
+        "loot_name": "Wires"
+      }
+    ],
+    "rarity": "Blue",
+    "craftable": true,
+    "description": "",
+    "sell_value": "0",
+    "loot_name": "Electrical Components"
+  },
+  {
+    "used_for_crafting": "{'Scrappy Level\\xa0II'}",
+    "recycles_into": [
+      {
+        "amount": "12",
+        "loot_name": "Fabric"
+      }
+    ],
+    "rarity": "Blue",
+    "craftable": false,
+    "description": "",
+    "sell_value": "0",
+    "loot_name": "Torn Blanket"
+  },
+  {
+    "craftable": false,
+    "description": "",
+    "sell_value": "0",
+    "loot_name": "Medium Gun Parts",
+    "rarity": "Grey"
+  },
+  {
+    "craftable": false,
+    "description": "",
+    "sell_value": "0",
+    "recycles_into": [
+      {
+        "amount": "0",
+        "loot_name": "Fabric"
+      }
+    ],
+    "loot_name": "Ripped Safety Vest",
+    "rarity": "Blue"
+  },
+  {
+    "craftable": false,
+    "description": "",
+    "sell_value": "0",
+    "loot_name": "Shotgun Gun Parts",
+    "rarity": "Grey"
+  },
+  {
+    "used_for_crafting": "{'Utility Bench Level III'}",
+    "recycles_into": [
+      {
+        "amount": "5",
+        "loot_name": "Plastic Parts"
+      },
+      {
+        "amount": "1",
+        "loot_name": "Electrical Components"
+      }
+    ],
+    "rarity": "Grey",
+    "craftable": false,
+    "description": "",
+    "sell_value": "0",
+    "loot_name": "Fried Motherboard"
+  },
+  {
+    "used_for_crafting": "{'Equalizer I', 'Jupiter I', 'Raider Augment IV'}",
+    "craftable_using": [
+      {
+        "amount": "1",
+        "loot_name": "ARC Circuitry"
+      },
+      {
+        "amount": "1",
+        "loot_name": "Electrical Components"
+      }
+    ],
+    "recycles_into": [
+      {
+        "amount": "4",
+        "loot_name": "Wires"
+      },
+      {
+        "amount": "3",
+        "loot_name": "ARC Alloy"
+      }
+    ],
+    "rarity": "Purple",
+    "craftable": true,
+    "description": "",
+    "sell_value": "0",
+    "loot_name": "Power Rod"
+  },
+  {
+    "craftable": false,
+    "description": "",
+    "sell_value": "0",
+    "recycles_into": [
+      {
+        "amount": "3",
+        "loot_name": "Rubber Parts"
+      },
+      {
+        "amount": "5",
+        "loot_name": "Battery"
+      }
+    ],
+    "loot_name": "Cracked Bioscanner",
+    "rarity": "Blue"
+  },
+  {
+    "craftable": false,
+    "description": "",
+    "sell_value": "0",
+    "recycles_into": [
+      {
+        "amount": "3",
+        "loot_name": "Canister"
+      },
+      {
+        "amount": "2",
+        "loot_name": "Wires"
+      }
+    ],
+    "loot_name": "Humidifier",
+    "rarity": "Green"
+  },
+  {
+    "craftable": true,
+    "description": "",
+    "craftable_using": [
+      {
+        "amount": "8",
+        "loot_name": "Power Rod"
+      },
+      {
+        "amount": "20",
+        "loot_name": "Voltage Converter"
+      }
+    ],
+    "sell_value": "0",
+    "loot_name": "Equalizer I",
+    "rarity": "Gold"
+  },
+  {
+    "craftable": true,
+    "description": "",
+    "craftable_using": [
+      {
+        "amount": "12",
+        "loot_name": "Fabric"
+      },
+      {
+        "amount": "1",
+        "loot_name": "Antiseptic"
+      }
+    ],
+    "sell_value": "1920",
+    "loot_name": "Sterilized Bandage",
+    "rarity": "Blue"
+  },
+  {
+    "used_for_crafting": "{'Explosive Mixture'}",
+    "recycles_into": [
+      {
+        "amount": "3",
+        "loot_name": "Chemicals"
+      }
+    ],
+    "rarity": "Green",
+    "craftable": false,
+    "description": "",
+    "sell_value": "0",
+    "loot_name": "Oil"
+  },
+  {
+    "used_for_crafting": "{'Zipline', 'Snap Hook'}",
+    "craftable_using": [
+      {
+        "amount": "5",
+        "loot_name": "Fabric"
+      }
+    ],
+    "recycles_into": [
+      {
+        "amount": "5",
+        "loot_name": "Fabric"
+      }
+    ],
+    "rarity": "Grey",
+    "craftable": true,
+    "description": "",
+    "sell_value": "0",
+    "loot_name": "Rope"
+  },
+  {
+    "used_for_crafting": "{'Weapon Bench Level\\xa0II'}",
+    "recycles_into": [
+      {
+        "amount": "2",
+        "loot_name": "ARC Alloys"
+      }
+    ],
+    "rarity": "Green",
+    "craftable": false,
+    "description": "",
+    "sell_value": "0",
+    "loot_name": "Wasp Driver"
+  },
+  {
+    "craftable": true,
+    "description": "",
+    "craftable_using": [
+      {
+        "amount": "20",
+        "loot_name": "Rubber Parts"
+      },
+      {
+        "amount": "2",
+        "loot_name": "Processor"
+      }
+    ],
+    "sell_value": "0",
+    "loot_name": "Raider Augment II",
+    "rarity": "Blue"
+  },
+  {
+    "craftable": false,
+    "description": "",
+    "used_for_crafting": "{'Explosives Bench Level\\xa0III'}",
+    "sell_value": "0",
+    "loot_name": "Rocketeer Core",
+    "rarity": "Purple"
+  },
+  {
+    "craftable": false,
+    "description": "",
+    "sell_value": "0",
+    "recycles_into": [
+      {
+        "amount": "8",
+        "loot_name": "Rubber Parts"
+      },
+      {
+        "amount": "4",
+        "loot_name": "Fabric"
+      }
+    ],
+    "loot_name": "Expired Respirator",
+    "rarity": "Blue"
+  },
+  {
+    "craftable": true,
+    "description": "",
+    "craftable_using": [
+      {
+        "amount": "5",
+        "loot_name": "Metal Parts"
+      },
+      {
+        "amount": "1",
+        "loot_name": "Battery"
+      }
+    ],
+    "sell_value": "0",
+    "loot_name": "Shield Charge",
+    "rarity": "Green"
+  },
+  {
+    "craftable": false,
+    "description": "",
+    "sell_value": "0",
+    "recycles_into": [
+      {
+        "amount": "14",
+        "loot_name": "Metal Parts"
+      }
+    ],
+    "loot_name": "Garlic Press",
+    "rarity": "Green"
+  },
+  {
+    "craftable": false,
+    "description": "",
+    "sell_value": "0",
+    "recycles_into": [
+      {
+        "amount": "1",
+        "loot_name": "Wires"
+      }
+    ],
+    "loot_name": "Sensors",
+    "rarity": "Green"
+  },
+  {
+    "used_for_crafting": "{'Sterilized Bandage', 'Med Station Level\\xa0III', 'Med Station Level\\xa0II', 'Vita Spray', 'Vita Shot'}",
+    "craftable_using": [
+      {
+        "amount": "14",
+        "loot_name": "Chemicals"
+      },
+      {
+        "amount": "1",
+        "loot_name": "Torch Ginger"
+      }
+    ],
+    "recycles_into": [
+      {
+        "amount": "10",
+        "loot_name": "Chemicals"
+      }
+    ],
+    "rarity": "Green",
+    "craftable": true,
+    "description": "",
+    "sell_value": "0",
+    "loot_name": "Antiseptic"
+  },
+  {
+    "craftable": false,
+    "description": "",
+    "sell_value": "10000",
+    "loot_name": "Lance\u2019s Mixtape (5th Edition)",
+    "rarity": "Purple"
+  },
+  {
+    "craftable": true,
+    "description": "",
+    "craftable_using": [
+      {
+        "amount": "5",
+        "loot_name": "Metal Parts"
+      },
+      {
+        "amount": "1",
+        "loot_name": "Steel Spring"
+      }
+    ],
+    "sell_value": "0",
+    "loot_name": "Barricade Kit",
+    "rarity": "Green"
+  },
+  {
+    "craftable": true,
+    "description": "",
+    "craftable_using": [
+      {
+        "amount": "1",
+        "loot_name": "Explosive Mixture"
+      },
+      {
+        "amount": "2",
+        "loot_name": "Sensors"
+      }
+    ],
+    "sell_value": "0",
+    "loot_name": "Jump Mine",
+    "rarity": "Blue"
+  },
+  {
+    "craftable": true,
+    "description": "",
+    "craftable_using": [
+      {
+        "amount": "2",
+        "loot_name": "Antiseptic"
+      },
+      {
+        "amount": "4",
+        "loot_name": "Canister"
+      }
+    ],
+    "sell_value": "0",
+    "loot_name": "Vita Spray",
+    "rarity": "Blue"
+  },
+  {
+    "used_for_crafting": "{'Refiner Level II', 'Explosives Bench Level II'}",
+    "recycles_into": [
+      {
+        "amount": "1",
+        "loot_name": "ARC Alloys"
+      },
+      {
+        "amount": "1",
+        "loot_name": "Chemicals"
+      }
+    ],
+    "rarity": "Green",
+    "craftable": false,
+    "description": "",
+    "sell_value": "0",
+    "loot_name": "Fireball Burner"
+  },
+  {
+    "craftable": true,
+    "description": "",
+    "craftable_using": [
+      {
+        "amount": "3",
+        "loot_name": "Chemicals"
+      },
+      {
+        "amount": "2",
+        "loot_name": "Plastic Parts"
+      }
+    ],
+    "sell_value": "0",
+    "loot_name": "Adrenaline Shot",
+    "rarity": "Green"
+  },
+  {
+    "craftable": false,
+    "description": "",
+    "sell_value": "0",
+    "recycles_into": [
+      {
+        "amount": "12",
+        "loot_name": "Plastic Parts"
+      }
+    ],
+    "loot_name": "Broken Riot Shield",
+    "rarity": "Blue"
+  },
+  {
+    "craftable": true,
+    "description": "",
+    "craftable_using": [
+      {
+        "amount": "12",
+        "loot_name": "Rubber Parts"
+      },
+      {
+        "amount": "9",
+        "loot_name": "Plastic Parts"
+      }
+    ],
+    "sell_value": "0",
+    "loot_name": "Raider Augment I",
+    "rarity": "Green"
+  },
+  {
+    "craftable": false,
+    "description": "",
+    "sell_value": "0",
+    "recycles_into": [
+      {
+        "amount": "2",
+        "loot_name": "Fabric"
+      },
+      {
+        "amount": "4",
+        "loot_name": "Steel Springs"
+      }
+    ],
+    "loot_name": "Spring Cushion",
+    "rarity": "Green"
+  },
+  {
+    "craftable_using": [
+      {
+        "amount": "4",
+        "loot_name": "Fabric"
+      }
+    ],
+    "recycles_into": [
+      {
+        "amount": "4",
+        "loot_name": "Fabric"
+      }
+    ],
+    "rarity": "Grey",
+    "craftable": true,
+    "description": "",
+    "sell_value": "0",
+    "loot_name": "Bandage"
+  },
+  {
+    "used_for_crafting": "{'Utility Bench Level\\xa0II'}",
+    "recycles_into": [
+      {
+        "amount": "1",
+        "loot_name": "ARC Alloys"
+      }
+    ],
+    "rarity": "Green",
+    "craftable": false,
+    "description": "",
+    "sell_value": "0",
+    "loot_name": "Hornet Driver"
+  },
+  {
+    "craftable": false,
+    "description": "",
+    "sell_value": "0",
+    "recycles_into": [
+      {
+        "amount": "3",
+        "loot_name": "Sensors"
+      },
+      {
+        "amount": "3",
+        "loot_name": "Wires"
+      }
+    ],
+    "loot_name": "Broken Handheld Radio",
+    "rarity": "Blue"
+  }
+]
