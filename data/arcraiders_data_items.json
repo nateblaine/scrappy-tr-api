@@ -1,0 +1,1077 @@
+[
+  {
+    "id": "fabric",
+    "name": "Fabric",
+    "description": "A common crafting material.",
+    "type": "Material",
+    "imageFilename": "https://cdn.arctracker.io/items/fabric.png"
+  },
+  {
+    "id": "tick_pod",
+    "name": "Tick Pod",
+    "description": "The explosive pod from a Tick.",
+    "type": "Material",
+    "imageFilename": "https://cdn.arctracker.io/items/tick_pod.png"
+  },
+  {
+    "id": "explosive_mixture",
+    "name": "Explosive Mixture",
+    "description": "A volatile crafting component.",
+    "type": "Material",
+    "imageFilename": "https://cdn.arctracker.io/items/explosive_mixture.png"
+  },
+  {
+    "id": "dog_collar",
+    "name": "Dog Collar",
+    "description": "A worn dog collar.",
+    "type": "Quest Item"
+  },
+  {
+    "id": "torn_blanket",
+    "name": "Torn Blanket",
+    "description": "A tattered piece of cloth.",
+    "type": "Material"
+  },
+  {
+    "id": "lemon",
+    "name": "Lemon",
+    "description": "A sour citrus fruit.",
+    "type": "Consumable"
+  },
+  {
+    "id": "apricot",
+    "name": "Apricot",
+    "description": "A sweet, orange fruit.",
+    "type": "Consumable"
+  },
+  {
+    "id": "metal_parts",
+    "name": "Metal Parts",
+    "description": "Used to craft a wide range of items.",
+    "type": "Material",
+    "rarity": "Common",
+    "value": 75,
+    "weightKg": 0.15,
+    "imageFilename": "https://cdn.arctracker.io/items/metal_parts.png"
+  },
+  {
+    "id": "rubber_parts",
+    "name": "Rubber Parts",
+    "description": "Scrap rubber pieces for crafting.",
+    "type": "Material",
+    "imageFilename": "https://cdn.arctracker.io/items/rubber_parts.png"
+  },
+  {
+    "id": "plastic_parts",
+    "name": "Plastic Parts",
+    "description": "Scrap plastic pieces for crafting.",
+    "type": "Material",
+    "imageFilename": "https://cdn.arctracker.io/items/plastic_parts.png"
+  },
+  {
+    "id": "voltage_converter",
+    "name": "Voltage Converter",
+    "description": "A device that adjusts electrical voltage for various crafting purposes.",
+    "type": "Material",
+    "imageFilename": "https://cdn.arctracker.io/items/voltage_converter.png"
+  },
+  {
+    "id": "arc_motion_core",
+    "name": "ARC Motion Core",
+    "description": "A powerful core used in ARC machinery.",
+    "type": "Material",
+    "imageFilename": "https://cdn.arctracker.io/items/arc_motion_core.png"
+  },
+  {
+    "id": "toaster",
+    "name": "Toaster",
+    "description": "A salvaged toaster, repurposed for crafting.",
+    "type": "Material",
+    "imageFilename": "https://cdn.arctracker.io/items/toaster.png"
+  },
+  {
+    "id": "arc_circuitry",
+    "name": "ARC Circuitry",
+    "description": "Advanced circuitry used in ARC technology.",
+    "type": "Material",
+    "imageFilename": "https://cdn.arctracker.io/items/arc_circuitry.png"
+  },
+  {
+    "id": "motor",
+    "name": "Motor",
+    "description": "A small electric motor, useful for various devices.",
+    "type": "Material",
+    "imageFilename": "https://cdn.arctracker.io/items/motor.png"
+  },
+  {
+    "id": "queen_part",
+    "name": "Queen Part",
+    "description": "A rare part salvaged from a Queen unit.",
+    "type": "Material",
+    "imageFilename": "https://cdn.arctracker.io/items/queen_part.png"
+  },
+  {
+    "id": "wires",
+    "name": "Wires",
+    "description": "A bundle of conductive wires for crafting.",
+    "type": "Material",
+    "imageFilename": "https://cdn.arctracker.io/items/wires.png"
+  },
+  {
+    "id": "hornet_driver",
+    "name": "Hornet Driver",
+    "description": "A control module used to operate Hornet drones or vehicles.",
+    "type": "Material",
+    "imageFilename": "https://cdn.arctracker.io/items/hornet_driver.png"
+  },
+  {
+    "id": "fried_motherboard",
+    "name": "Fried Motherboard",
+    "description": "A damaged motherboard, useful for salvage.",
+    "type": "Material",
+    "imageFilename": "https://cdn.arctracker.io/items/fried_motherboard.png"
+  },
+  {
+    "id": "rusted_tools",
+    "name": "Rusted Tools",
+    "description": "A set of tools, rusted but still usable for crafting.",
+    "type": "Material",
+    "imageFilename": "https://cdn.arctracker.io/items/rusted_tools.png"
+  },
+  {
+    "id": "wasp_driver",
+    "name": "Wasp Driver",
+    "description": "A control module used to operate Wasp drones or vehicles.",
+    "type": "Material",
+    "imageFilename": "https://cdn.arctracker.io/items/wasp_driver.png"
+  },
+  {
+    "id": "rusted_gear",
+    "name": "Rusted Gear",
+    "description": "A gear covered in rust, but still functional.",
+    "type": "Material",
+    "imageFilename": "https://cdn.arctracker.io/items/rusted_gear.png"
+  },
+  {
+    "id": "sentinel_part",
+    "name": "Sentinel Part",
+    "description": "A salvaged component from a Sentinel unit.",
+    "type": "Material",
+    "imageFilename": "https://cdn.arctracker.io/items/sentinel_part.png"
+  },
+  {
+    "id": "rollbot_part",
+    "name": "Rollbot Part",
+    "description": "A salvaged component from a Rollbot unit.",
+    "type": "Material",
+    "imageFilename": "https://cdn.arctracker.io/items/rollbot_part.png"
+  },
+  {
+    "id": "synthesized_fuel",
+    "name": "Synthesized Fuel",
+    "description": "A canister of synthetic fuel blend.",
+    "type": "Material",
+    "imageFilename": "https://cdn.arctracker.io/items/synthesized_fuel.png"
+  },
+  {
+    "id": "fireball_burner",
+    "name": "Fireball Burner",
+    "description": "A burner module from a Fireball unit.",
+    "type": "Material",
+    "imageFilename": "https://cdn.arctracker.io/items/fireball_burner.png"
+  },
+  {
+    "id": "laboratory_reagents",
+    "name": "Laboratory Reagents",
+    "description": "A set of chemical reagents used in laboratory experiments.",
+    "type": "Material",
+    "imageFilename": "https://cdn.arctracker.io/items/laboratory_reagents.png"
+  },
+  {
+    "id": "syringe",
+    "name": "Syringe",
+    "description": "A sterile syringe for medical use.",
+    "type": "Material",
+    "imageFilename": "https://cdn.arctracker.io/items/syringe.png"
+  },
+  {
+    "id": "antiseptic",
+    "name": "Antiseptic",
+    "description": "A bottle of antiseptic liquid for cleaning wounds.",
+    "type": "Material",
+    "imageFilename": "https://cdn.arctracker.io/items/antiseptic.png"
+  },
+  {
+    "id": "snitch_scanner",
+    "name": "Snitch Scanner",
+    "description": "A handheld scanner for detecting hidden transmitters.",
+    "type": "Material",
+    "imageFilename": "https://cdn.arctracker.io/items/snitch_scanner.png"
+  },
+  {
+    "id": "rusted_shut_medical_kit",
+    "name": "Rusted Shut Medical Kit",
+    "description": "A medical kit rusted shut, its contents unknown.",
+    "type": "Material",
+    "imageFilename": "https://cdn.arctracker.io/items/rusted_shut_medical_kit.png"
+  },
+  {
+    "id": "bastion_part",
+    "name": "Bastion Part",
+    "description": "A salvaged component from a Bastion unit.",
+    "type": "Material",
+    "imageFilename": "https://cdn.arctracker.io/items/bastion_part.png"
+  },
+  {
+    "id": "spring",
+    "name": "Spring",
+    "description": "A tightly wound coil of metal, useful for crafting mechanisms.",
+    "type": "Material",
+    "imageFilename": "https://cdn.arctracker.io/items/spring.png"
+  },
+  {
+    "id": "heavy_gun_parts",
+    "name": "Heavy Gun Parts",
+    "description": "Specialized components salvaged from heavy firearms, used in advanced weapon crafting.",
+    "type": "Material",
+    "imageFilename": "https://cdn.arctracker.io/items/heavy_gun_parts.png"
+  },
+  {
+    "id": "arc_alloy",
+    "name": "ARC Alloy",
+    "description": "Specialized alloys from ARC technology.",
+    "type": "Material",
+    "imageFilename": "https://cdn.arctracker.io/items/arc_alloy.png"
+  },
+  {
+    "id": "ferro_i",
+    "name": "Ferro I",
+    "description": "A basic Ferro rifle.",
+    "type": "Weapon"
+  },
+  {
+    "id": "light_ammo",
+    "name": "Light Ammo",
+    "description": "Light bullets used mainly with SMGs and light handguns.",
+    "type": "Ammo",
+    "imageFilename": "https://cdn.arctracker.io/items/light_ammo.png",
+    "compatibleWith": ["Kettle", "Burletta", "Hairpin", "Bobcat", "Stitcher"]
+  },
+  {
+    "id": "heavy_ammo",
+    "name": "Heavy Ammo",
+    "description": "Heavy bullets used mainly with large-caliber weapons.",
+    "type": "Ammo",
+    "compatibleWith": ["Anvil"]
+  },
+  {
+    "id": "medium_ammo",
+    "name": "Medium Ammo",
+    "description": "Medium bullets used mainly with medium-caliber weapons.",
+    "type": "Ammo",
+    "compatibleWith": ["Arpeggio"]
+  },
+  {
+    "id": "herbal_bandages",
+    "name": "Herbal Bandages",
+    "description": "Bandages infused with healing herbs.",
+    "type": "Consumable"
+  },
+  {
+    "id": "sterilized_bandage",
+    "name": "Sterilized Bandage",
+    "description": "A sterile bandage for treating wounds.",
+    "type": "Consumable",
+    "imageFilename": "https://cdn.arctracker.io/items/sterilized_bandage.png"
+  },
+  {
+    "id": "lure_grenade",
+    "name": "Lure Grenade",
+    "description": "A grenade that attracts attention.",
+    "type": "Gear"
+  },
+  {
+    "id": "jump_mines",
+    "name": "Jump Mines",
+    "description": "Proximity mines that launch into the air.",
+    "type": "Gear"
+  },
+  {
+    "id": "ferro_iv",
+    "name": "Ferro IV",
+    "description": "An advanced Ferro device.",
+    "type": "Weapon"
+  },
+  {
+    "id": "blaze_grenades",
+    "name": "Blaze Grenades",
+    "description": "Incendiary grenades.",
+    "type": "Gear"
+  },
+  {
+    "id": "apreggio_i",
+    "name": "Apreggio I",
+    "baseItemId": "apreggio_rifle",
+    "tier": 1,
+    "description": "A 3-round burst assault rifle.",
+    "type": "Assault Rifle",
+    "rarity": "Common",
+    "imageFilename": "https://cdn.arctracker.io/items/arpeggio.png",
+    "tags": ["Assault Rifle", "Burst"],
+    "ammoType": "Medium Ammo",
+    "statBars": { "damage": 10, "fireRate": 60, "range": 30, "stability": 70, "agility": 35, "stealth": 20 },
+    "weightKg": 5.8,
+    "value": 2000
+  },
+  {
+    "id": "apreggio_iv",
+    "name": "Apreggio IV",
+    "baseItemId": "apreggio_rifle",
+    "tier": 4,
+    "description": "A 3-round burst assault rifle with decent damage output and accuracy.",
+    "type": "Assault Rifle",
+    "rarity": "Uncommon",
+    "imageFilename": "https://cdn.arctracker.io/items/arpeggio.png", 
+    "tags": ["Assault Rifle", "Burst"],
+    "flavorText": "Somewhat effective against ARC armor plating",
+    "ammoType": "Medium Ammo",
+    "magazineSize": 24,
+    "magazineCurrent": 24,
+    "modsEquippedMax": 4,
+    "statBars": { 
+      "damage": 20, 
+      "fireRate": 70, 
+      "range": 40, 
+      "stability": 85, 
+      "agility": 30, 
+      "stealth": 25 
+    },
+    "bonuses": [
+      "60% Increased Fire Rate",
+      "50% Reduced Reload Time",
+      "70% Reduced Durability Burn Rate"
+    ],
+    "weightKg": 6,
+    "value": 7000
+  },
+  {
+    "id": "rubber_duck",
+    "name": "Rubber Duck",
+    "description": "A squeaky yellow rubber duck.",
+    "type": "Misc"
+  },
+  {
+    "id": "faded_photograph",
+    "name": "Faded Photograph",
+    "description": "An old, faded photograph.",
+    "type": "Misc"
+  },
+  {
+    "id": "arc_powercell",
+    "name": "ARC Powercell",
+    "description": "A powerful energy cell used in ARC technology.",
+    "type": "Misc"
+  },
+  {
+    "id": "water_filter",
+    "name": "Water Filter",
+    "description": "A portable filtration device for purifying water.",
+    "type": "Misc"
+  },
+  {
+    "id": "water_pump",
+    "name": "Water Pump",
+    "description": "A small electric pump used to move water.",
+    "type": "Misc"
+  },
+  {
+    "id": "sensor",
+    "name": "Sensor",
+    "description": "A sensitive electronic sensor used for environmental monitoring.",
+    "type": "Misc"
+  },
+  {
+    "id": "advanced_electrical_components",
+    "name": "Advanced Electrical Components",
+    "description": "Specialized electrical parts required for advanced repairs and upgrades.",
+    "type": "Misc"
+  },
+  {
+    "id": "deflated_football",
+    "name": "Deflated Football",
+    "description": "A worn, deflated football. Needs air but still has sentimental value.",
+    "type": "Misc"
+  },
+  {
+    "id": "duct_tape",
+    "name": "Duct Tape",
+    "description": "A roll of strong, multipurpose adhesive tape. Useful for all kinds of repairs.",
+    "type": "Misc"
+  },
+  {
+    "id": "flute",
+    "name": "Flute",
+    "description": "A simple musical instrument, lightweight and portable.",
+    "type": "Misc"
+  },
+  {
+    "id": "empty_wine_bottle",
+    "name": "Empty Wine Bottle",
+    "description": "A glass bottle once filled with wine, now empty.",
+    "type": "Misc"
+  },
+  {
+    "id": "light_impact_grenade",
+    "name": "Light Impact Grenade",
+    "description": "A small grenade designed for light impact and crowd control.",
+    "type": "Misc"
+  },
+  {
+    "id": "oil",
+    "name": "Oil",
+    "description": "A small container of multipurpose oil, useful for maintenance and crafting.",
+    "type": "Misc"
+  },
+  {
+    "id": "snap_hook",
+    "name": "Snap Hook",
+    "description": "A sturdy metal hook with a spring-loaded gate, used for fast attachment.",
+    "type": "Misc"
+  },
+  {
+    "id": "esr_analyzer",
+    "name": "ESR Analyzer",
+    "description": "A specialized medical device for analyzing erythrocyte sedimentation rates.",
+    "type": "Misc"
+  },
+  {
+    "id": "rocketeer_part",
+    "name": "Rocketeer Part",
+    "description": "A salvaged component from a Rocketeer unit.",
+    "type": "Misc",
+    "imageFilename": "https://cdn.arctracker.io/items/rocketeer_part.png"
+  },
+  {
+    "id": "wolfpack",
+    "name": "WolfPack",
+    "description": "A compact bundle of high-explosive charges, commonly used by Raiders.",
+    "type": "Misc"
+  },
+  {
+    "id": "bison_driver",
+    "name": "Bison Driver",
+    "description": "A critical control component from a Bison vehicle.",
+    "type": "Misc"
+  },
+  {
+    "id": "equalizer",
+    "name": "Equalizer",
+    "description": "A powerful, rare weapon or device used to level the playing field.",
+    "type": "Misc"
+  },
+  {
+    "id": "camera_lens",
+    "name": "Camera Lens",
+    "description": "A precision optical lens for cameras, fragile but valuable.",
+    "type": "Misc"
+  },
+  {
+    "id": "film_reel",
+    "name": "Film Reel",
+    "description": "A reel of photographic film, used for recording images.",
+    "type": "Misc"
+  },
+  {
+    "id": "electrical_components",
+    "name": "Electrical Components",
+    "description": "A collection of wires, chips, and connectors for electrical repairs.",
+    "type": "Misc"
+  },
+  {
+    "id": "raider_augment_i",
+    "name": "Raider Augment I",
+    "description": "Can be equipped to gain more loadout space and carry capacity. Allows you to equip better shields as well.",
+    "type": "Augment",
+    "rarity": "Uncommon",
+    "backpackSlots": 16,
+    "weightLimitKg": 50,
+    "weaponSlots": 2,
+    "quickUseSlots": 6,
+    "safePocketSlots": 2,
+    "shieldCompatibility": ["Light", "Medium"],
+    "crafting": {
+      "rubber_parts": 12,
+      "plastic_parts": 8
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/raider_augment_i.png"
+  },
+  {
+    "id": "raider_augment_ii",
+    "name": "Raider Augment II",
+    "description": "Can be equipped to gain more loadout space and carry capacity. Allows you to equip better shields as well.",
+    "type": "Augment",
+    "rarity": "Rare",
+    "backpackSlots": 18,
+    "weightLimitKg": 55,
+    "weaponSlots": 2,
+    "quickUseSlots": 6,
+    "safePocketSlots": 2,
+    "shieldCompatibility": ["Light", "Medium"],
+    "crafting": {
+      "rubber_parts": 20,
+      "processor": 2
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/raider_augment_ii.png"
+  },
+  {
+    "id": "canister",
+    "name": "Canister",
+    "description": "A metal container used for storing pressurized gas or fuel, essential for certain advanced weapons and devices.",
+    "type": "Material",
+    "imageFilename": "https://cdn.arctracker.io/items/canister.png"
+  },
+  {
+    "id": "advanced_mechanical_components",
+    "name": "Advanced Mechanical Components",
+    "description": "Mostly used to craft advanced weapons. Can be recycled into crafting materials.",
+    "type": "Advanced Material",
+    "rarity": "Epic",
+    "value": 3000,
+    "weightKg": 1,
+    "imageFilename": "https://cdn.arctracker.io/items/advanced_mechanical_components.png"
+  },
+  {
+    "id": "simple_gun_parts",
+    "name": "Simple Gun Parts",
+    "description": "Basic components salvaged from common firearms, used in weapon crafting.",
+    "type": "Material",
+    "imageFilename": "https://cdn.arctracker.io/items/simple_gun_parts.png"
+  },
+  {
+    "id": "mechanical_components",
+    "name": "Mechanical Components",
+    "description": "A set of gears, springs, and metal parts used in weapon and device crafting.",
+    "type": "Material",
+    "imageFilename": "https://cdn.arctracker.io/items/mechanical_components.png"
+  },
+  {
+    "id": "arpeggio_i",
+    "name": "ARPEGGIO I",
+    "description": "A 3-round burst assault rifle with decent damage output and accuracy.",
+    "type": "Assault Rifle",
+    "rarity": "Uncommon",
+    "damage": 11,
+    "fireRate": 18.3,
+    "range": 53.7,
+    "stability": 82.4,
+    "agility": 60,
+    "stealth": 14,
+    "crafting": {
+      "mechanical_components": 1,
+      "magnet": 3
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/arpeggio_i.png"
+  },
+  {
+    "id": "venator_i",
+    "name": "VENATOR I",
+    "description": "Semi-automatic pistol. Fires two shots at a time.",
+    "type": "Pistol",
+    "rarity": "Rare",
+    "damage": 18,
+    "fireRate": 21.7,
+    "range": 48.4,
+    "stability": 71.2,
+    "agility": 77.6,
+    "stealth": 12,
+    "crafting": {
+      "advanced_mechanical_components": 2,
+      "magnet": 4
+    },
+    "stationLevelRequired": 2,
+    "imageFilename": "https://cdn.arctracker.io/items/venator_i.png"
+  },
+  {
+    "id": "vulcano_i",
+    "name": "VULCANO I",
+    "description": "Semi-automatic shotgun with good bullet spread but sharp falloff.",
+    "type": "Shotgun",
+    "rarity": "Epic",
+    "damage": 58.5,
+    "fireRate": 8.3,
+    "range": 22.1,
+    "stability": 70.3,
+    "agility": 70.7,
+    "stealth": 15,
+    "increasedFireRate": 10,
+    "reducedReloadTime": 13,
+    "reducedDurabilityBurnRate": 23,
+    "crafting": {
+      "advanced_mechanical_components": 3,
+      "canister": 4
+    },
+    "stationLevelRequired": 3,
+    "imageFilename": "https://cdn.arctracker.io/items/vulcano.png"
+  },
+  {
+    "id": "vulcano_ii",
+    "name": "VULCANO II",
+    "description": "Semi-automatic shotgun with good bullet spread but sharp falloff.",
+    "type": "Shotgun",
+    "rarity": "Epic",
+    "damage": 58.5,
+    "fireRate": 14.3,
+    "range": 22.1,
+    "stability": 70.3,
+    "agility": 70.7,
+    "stealth": 15,
+    "increasedFireRate": 20,
+    "reducedReloadTime": 26,
+    "reducedDurabilityBurnRate": 46,
+    "crafting": {
+      "mechanical_components": 1,
+      "simple_gun_parts": 3
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/vulcano.png"
+  },
+  {
+    "id": "venator_ii",
+    "name": "VENATOR II",
+    "description": "Semi-automatic pistol. Fires two shots at a time.",
+    "type": "Pistol",
+    "rarity": "Rare",
+    "damage": 18,
+    "fireRate": 26.7,
+    "range": 48.4,
+    "stability": 71.2,
+    "agility": 77.6,
+    "stealth": 12,
+    "increasedFireRate": 22,
+    "reducedReloadTime": 16,
+    "reducedDurabilityBurnRate": 23,
+    "crafting": {
+      "mechanical_components": 1,
+      "simple_gun_parts": 3
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/venator.png"
+  },
+  {
+    "id": "arpeggio_iii",
+    "name": "ARPEGGIO III",
+    "description": "A 3-round burst assault rifle with decent damage output and accuracy.",
+    "type": "Assault Rifle",
+    "rarity": "Uncommon",
+    "damage": 11,
+    "fireRate": 18.3,
+    "range": 53.7,
+    "stability": 82.4,
+    "agility": 60,
+    "stealth": 14,
+    "increasedFireRate": 40,
+    "reducedReloadTime": 25,
+    "reducedDurabilityBurnRate": 46,
+    "imageFilename": "https://cdn.arctracker.io/items/arpeggio.png"
+  },
+  {
+    "id": "arpeggio_iv",
+    "name": "ARPEGGIO IV",
+    "description": "A 3-round burst assault rifle with decent damage output and accuracy.",
+    "type": "Assault Rifle",
+    "rarity": "Uncommon",
+    "damage": 11,
+    "fireRate": 23.3,
+    "range": 53.7,
+    "stability": 82.4,
+    "agility": 60,
+    "stealth": 14,
+    "increasedFireRate": 60,
+    "reducedReloadTime": 50,
+    "reducedDurabilityBurnRate": 70,
+    "crafting": {
+      "mechanical_components": 1,
+      "medium_gun_parts": 2
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/arpeggio.png"
+  },
+  {
+    "id": "anvil_iii",
+    "name": "ANVIL III",
+    "description": "Single-action hand cannon with high damage output and headshot damage, but slow handling.",
+    "type": "Hand Cannon",
+    "rarity": "Uncommon",
+    "damage": 40,
+    "fireRate": 14.7,
+    "range": 51.3,
+    "stability": 66.5,
+    "agility": 68,
+    "stealth": 10,
+    "reducedDispersionRecoveryTime": 30,
+    "increasedFireRate": 30,
+    "reducedDurabilityBurnRate": 46,
+    "imageFilename": "https://cdn.arctracker.io/items/anvil.png"
+  },
+  {
+    "id": "anvil_iv",
+    "name": "ANVIL IV",
+    "description": "Single-action hand cannon with high damage output and headshot damage, but slow handling.",
+    "type": "Hand Cannon",
+    "rarity": "Uncommon",
+    "damage": 40,
+    "fireRate": 20.7,
+    "range": 51.3,
+    "stability": 66.5,
+    "agility": 74,
+    "stealth": 10,
+    "reducedDispersionRecoveryTime": 45,
+    "increasedFireRate": 45,
+    "reducedDurabilityBurnRate": 62,
+    "crafting": {
+      "mechanical_components": 1,
+      "heavy_gun_parts": 2
+    },
+    "imageFilename": "https://cdn.arctracker.io/items/anvil.png"
+  },
+  {
+    "id": "raider_augment_iii",
+    "name": "Raider Augment III",
+    "description": "Can be equipped to gain more loadout space and carry capacity. Allows you to equip better shields as well.",
+    "type": "Augment",
+    "rarity": "Epic",
+    "backpackSlots": 20,
+    "weightLimitKg": 55,
+    "weaponSlots": 2,
+    "quickUseSlots": 6,
+    "safePocketSlots": 2,
+    "shieldCompatibility": ["Light", "Medium", "Heavy"],
+    "crafting": {
+      "electrical_components": 1,
+      "processor": 2
+    },
+    "stationLevelRequired": 2,
+    "imageFilename": "https://cdn.arctracker.io/items/raider_augment_iii.png"
+  },
+  {
+    "id": "raider_augment_iv",
+    "name": "Raider Augment IV",
+    "description": "Can be equipped to gain more loadout space and carry capacity. Allows you to equip better shields as well.",
+    "type": "Augment",
+    "rarity": "Legendary",
+    "backpackSlots": 24,
+    "weightLimitKg": 60,
+    "weaponSlots": 2,
+    "quickUseSlots": 8,
+    "safePocketSlots": 3,
+    "shieldCompatibility": ["Light", "Medium", "Heavy"],
+    "crafting": {
+      "power_rod": 1,
+      "processor": 4
+    },
+    "stationLevelRequired": 3,
+    "imageFilename": "https://cdn.arctracker.io/items/raider_augment_iv.png"
+  },
+  {
+    "id": "medium_gun_parts",
+    "name": "Medium Gun Parts",
+    "description": "Components salvaged from medium firearms, used in weapon crafting.",
+    "type": "Material",
+    "imageFilename": "https://cdn.arctracker.io/items/medium_gun_parts.png"
+  },
+  {
+    "id": "chemicals",
+    "name": "Chemicals",
+    "description": "Used to craft medical supplies, explosives, and utility items.",
+    "type": "Basic Material",
+    "rarity": "Common",
+    "value": 50,
+    "weightKg": 0.15,
+    "imageFilename": "https://cdn.arctracker.io/items/power_rod.png"
+  },
+  {
+    "id": "power_rod",
+    "name": "Power Rod",
+    "description": "Used to craft shields. Can be recycled into crafting materials.",
+    "type": "Advanced Material",
+    "rarity": "Epic",
+    "value": 3000,
+    "weightKg": 1,
+    "imageFilename": "https://cdn.arctracker.io/items/power_rod.png"
+  },
+  {
+    "id": "industrial_battery",
+    "name": "Industrial Battery",
+    "description": "A large, high-capacity battery for industrial equipment.",
+    "type": "Material",
+    "imageFilename": "https://cdn.arctracker.io/items/industrial_battery.png"
+  },
+  {
+    "id": "advanced_electrical_components",
+    "name": "Advanced Electrical Components",
+    "description": "A set of high-grade components for advanced electronics and repairs.",
+    "type": "Material",
+    "imageFilename": "https://cdn.arctracker.io/items/advanced_electrical_components.png"
+  },
+  {
+    "id": "power_cable",
+    "name": "Power Cable",
+    "description": "A heavy-duty cable used for transmitting electrical power.",
+    "type": "Material",
+    "imageFilename": "https://cdn.arctracker.io/items/power_cable.png"
+  },
+  {
+    "id": "faded_photograph",
+    "name": "Faded Photograph",
+    "description": "A photograph whose details have faded with time.",
+    "type": "Valuable",
+    "value": 640
+  },
+  {
+    "id": "portable_television",
+    "name": "Portable Television",
+    "description": "A small, outdated portable TV.",
+    "type": "Valuable",
+    "value": 1000
+  },
+  {
+    "id": "deflated_football",
+    "name": "Deflated Football",
+    "description": "A football that has seen better days.",
+    "type": "Valuable",
+    "value": 1000
+  },
+  {
+    "id": "empty_wine_bottle",
+    "name": "Empty Wine Bottle",
+    "description": "An empty bottle that once held fine wine.",
+    "type": "Valuable",
+    "value": 1000
+  },
+  {
+    "id": "rubber_ducky",
+    "name": "Rubber Ducky",
+    "description": "A classic yellow rubber ducky.",
+    "type": "Valuable",
+    "value": 1000
+  },
+  {
+    "id": "cat_bed",
+    "name": "Cat Bed",
+    "description": "A cozy bed for a beloved feline.",
+    "type": "Valuable",
+    "value": 1000
+  },
+  {
+    "id": "bloated_tuna_can",
+    "name": "Bloated Tuna Can",
+    "description": "A can of tuna, suspiciously bloated.",
+    "type": "Valuable",
+    "value": 1000
+  },
+  {
+    "id": "coffee_pot",
+    "name": "Coffee Pot",
+    "description": "A well-used coffee pot.",
+    "type": "Valuable",
+    "value": 1000
+  },
+  {
+    "id": "very_comfortable_pillow",
+    "name": "Very Comfortable Pillow",
+    "description": "A pillow that's softer than most.",
+    "type": "Valuable",
+    "value": 2000
+  },
+  {
+    "id": "pottery",
+    "name": "Pottery",
+    "description": "A piece of hand-crafted pottery.",
+    "type": "Valuable",
+    "value": 2000
+  },
+  {
+    "id": "film_reel",
+    "name": "Film Reel",
+    "description": "A reel of old film, possibly containing memories.",
+    "type": "Valuable",
+    "value": 2000
+  },
+  {
+    "id": "air_freshener",
+    "name": "Air Freshener",
+    "description": "A scented air freshener, barely fragrant.",
+    "type": "Valuable",
+    "value": 2000
+  },
+  {
+    "id": "poster_natural_wonder",
+    "name": "Poster of Natural Wonder",
+    "description": "A poster depicting a breathtaking natural scene.",
+    "type": "Valuable",
+    "value": 2000
+  },
+  {
+    "id": "light_bulb",
+    "name": "Light Bulb",
+    "description": "A fragile glass bulb for lighting.",
+    "type": "Valuable",
+    "value": 2000
+  },
+  {
+    "id": "statuette",
+    "name": "Statuette",
+    "description": "A small decorative statuette.",
+    "type": "Valuable",
+    "value": 3000
+  },
+  {
+    "id": "silver_teaspoon_set",
+    "name": "Silver Teaspoon Set",
+    "description": "A set of ornate silver teaspoons.",
+    "type": "Valuable",
+    "value": 3000
+  },
+  {
+    "id": "music_album",
+    "name": "Music Album",
+    "description": "A classic music album, still in its sleeve.",
+    "type": "Valuable",
+    "value": 3000
+  },
+  {
+    "id": "watch",
+    "name": "Watch",
+    "description": "A wristwatch that has stopped ticking.",
+    "type": "Valuable",
+    "value": 3000
+  },
+  {
+    "id": "vase",
+    "name": "Vase",
+    "description": "A decorative vase, possibly valuable.",
+    "type": "Valuable",
+    "value": 3000
+  },
+  {
+    "id": "music_box",
+    "name": "Music Box",
+    "description": "A music box that plays a haunting tune.",
+    "type": "Valuable",
+    "value": 5000
+  },
+  {
+    "id": "red_coral_jewelry",
+    "name": "Red Coral Jewelry",
+    "description": "A piece of jewelry made from red coral.",
+    "type": "Valuable",
+    "value": 5000
+  },
+  {
+    "id": "playing_cards",
+    "name": "Playing Cards",
+    "description": "A deck of playing cards, some missing.",
+    "type": "Valuable",
+    "value": 5000
+  },
+  {
+    "id": "snow_globe",
+    "name": "Snow Globe",
+    "description": "A globe containing a snowy scene.",
+    "type": "Valuable",
+    "value": 7000
+  },
+  {
+    "id": "lances_mixtape_5th_edition",
+    "name": "Lance’s Mixtape (5th Edition)",
+    "description": "A rare mixtape, highly sought after by collectors.",
+    "type": "Valuable",
+    "value": 10000
+  },
+  {
+    "id": "raider_hatch_key",
+    "name": "Raider Hatch Key",
+    "type": "Key",
+    "description": "Unlocks a Raider Hatch.",
+    "rarity": "Rare",
+    "imageFilename": "https://cdn.arctracker.io/items/raider_hatch_key.png"
+  },
+  {
+    "id": "medium_shield",
+    "name": "Medium Shield",
+    "type": "Shield",
+    "rarity": "Rare",
+    "description": "A standard shield that offers fair protection at a moderate cost to mobility.",
+    "durability": 100,
+    "shieldCharge": 80,
+    "damageMitigation": 45,
+    "movementSpeedModifier": -5,
+    "weight": 7,
+    "value": 2000,
+    "imageFilename": "https://cdn.arctracker.io/items/medium_shield.png"
+  },
+  {
+    "id": "zipline",
+    "name": "Zipline",
+    "type": "Quick Use",
+    "rarity": "Uncommon",
+    "description": "A deployable zipline that allows you to quickly move between two locations.",
+    "rangeMeters": 60,
+    "weight": 0.8,
+    "value": 2000,
+    "imageFilename": "https://cdn.arctracker.io/items/zipline.png"
+  },
+  {
+    "id": "arc_flex_rubber",
+    "name": "ARC Flex Rubber",
+    "type": "Recyclable",
+    "rarity": "Rare",
+    "description": "Obtained from ARC enemies or activities. Can be recycled into rubber.",
+    "weightKg": 1,
+    "value": 1000,
+    "imageFilename": "https://cdn.arctracker.io/items/arc_flex_rubber.png"
+  },
+  {
+    "id": "damaged_heat_sink",
+    "name": "Damaged Heat Sink",
+    "type": "Recyclable",
+    "rarity": "Rare",
+    "description": "Can be recycled into crafting materials.",
+    "weightKg": 2,
+    "value": 640,
+    "imageFilename": "https://cdn.arctracker.io/items/damaged_heat_sink.png"
+  },
+  {
+    "id": "snap_grenade",
+    "name": "Snap Grenade",
+    "description": "A grenade that disorients targets.",
+    "type": "Gear"
+  },
+  {
+    "id": "heavy_fuse_grenade",
+    "name": "Heavy Fuse Grenade",
+    "description": "A powerful explosive with a timed fuse.",
+    "type": "Gear"
+  },
+  {
+    "id": "showstopper",
+    "name": "Showstopper",
+    "description": "Unknown",
+    "type": "Gear"
+  },
+  {
+    "id": "photoelectric_cloak",
+    "name": "Photoelectric Cloak",
+    "description": "A cloak that hides your from ARC",
+    "type": "Gear"
+  },
+  {
+    "id": "burletta_recipe",
+    "name": "Burletta Recipe",
+    "description": "A recipe to craft the Burletta weapon.",
+    "type": "Recipe"
+  },
+  {
+    "id": "binoculars",
+    "name": "Binoculars",
+    "description": "Optical instrument for viewing distant objects.",
+    "type": "Gear"
+  }
+]
