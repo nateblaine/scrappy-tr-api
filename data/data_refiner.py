@@ -74,22 +74,20 @@ def main():
         has_cu = 'craftableUsing' in entry
 
         if crafting is not None:
-            if has_cu:
-                entry.pop('crafting', None)
-            else:
-                cu = []
-                for cid, amt in crafting.items():
-                    name = id_to_name.get(cid, '')
-                    if not name:
-                        missing_ids.add(cid)
-                    cu.append({
-                        'amount': int(amt) if isinstance(amt, (int, float, str)) and str(amt).isdigit() else amt,
-                        'itemName': name,
-                        'itemId': cid
-                    })
-                entry['craftableUsing'] = cu
-                entry['craftable'] = True
-                entry.pop('crafting', None)
+            print('We have a crafting for: ', it['id'])
+            cu = []
+            for cid, amt in crafting.items():
+                name = id_to_name.get(cid, '')
+                if not name:
+                    missing_ids.add(cid)
+                cu.append({
+                    'amount': int(amt) if isinstance(amt, (int, float, str)) and str(amt).isdigit() else amt,
+                    'itemName': name,
+                    'itemId': cid
+                })
+            entry['craftableUsing'] = cu
+            entry['craftable'] = True
+            entry.pop('crafting', None)
 
         # Normalize amounts in craftableUsing and recyclesInto
         if 'craftableUsing' in entry:

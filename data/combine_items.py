@@ -1,56 +1,51 @@
 #!/usr/bin/env python3
 import json
 import argparse
+import sys
 import re
-
-def slugify(s):
-    """Lowercase, replace non-alphanum with underscore, collapse underscores."""
-    return re.sub(r'_+', '_',
-           re.sub(r'[^a-z0-9]+', '_', s.lower())
-           ).strip('_')
+from decimal import Decimal
 
 def parse_args():
-    p = argparse.ArgumentParser(
-        description="Combine arcraiders_data_items.json + all_loot.json → combinedItems.json"
+    parser = argparse.ArgumentParser(
+        description="Refine combinedItems.json by handling 'crafting' → 'craftableUsing' and normalizing amounts"
     )
-    p.add_argument('-a','--arc-file',  default='arcraiders_data_items.json',
-                   help="Path to Arc Raiders data items JSON")
-    p.add_argument('-l','--loot-file', default='all_loot.json',
-                   help="Path to all_loot JSON file")
-    p.add_argument('-o','--output',    default='combinedItems.json',
-                   help="Path for output combined JSON")
-    return p.parse_args()
+    parser.add_argument('-i', '--input',  default='combinedItems.json')
+    parser.add_argument('-o', '--output', default='combined_refined.json')
+    return parser.parse_args()
+
+def slugify(s):
+    return re.sub(r'_+', '_', re.sub(r'[^a-z0-9]+', '_', s.lower())).strip('_')
 
 def parse_used_for_crafting(val):
-    """
-    Normalize used_for_crafting field:
-    - If list, replace non-breaking spaces and strip.
-    - If string (e.g. "{'A', 'B'}"), extract items.
-    """
     items = []
     if isinstance(val, list):
         for item in val:
             if isinstance(item, str):
                 items.append(item.replace('\u00a0',' ').strip())
     elif isinstance(val, str):
-        # Replace literal escapes and unicode non-breaking spaces
         s = val.replace('\\xa0',' ').replace('\u00a0',' ')
-        # Extract content inside single quotes
         found = re.findall(r"'([^']+)'", s)
         for item in found:
-            items.append(item.replace('\u00a0',' ').strip())
+            items.append(item.strip())
     return items
 
+def convert_amounts(list_field):
+    new_list = []
+    for elem in list_field:
+        amt = elem.get('amount')
+        if isinstance(amt, str) and amt.isdigit():
+            elem['amount'] = int(amt)
+        elif isinstance(amt, float):
+            elem['amount'] = int(amt)
+        new_list.append(elem)
+    return new_list
+
 def transform_list(lst):
-    """
-    lst: list of { 'amount': str, 'loot_name': str }
-    returns list of { 'amount', 'itemName', 'itemId' }
-    """
     out = []
     for entry in lst:
         name = entry.get('loot_name','').replace('\u00a0',' ').strip()
         out.append({
-            'amount': entry.get('amount',''),
+            'amount': int(entry.get('amount', 0)),
             'itemName': name,
             'itemId': slugify(name)
         })
@@ -58,47 +53,61 @@ def transform_list(lst):
 
 def main():
     args = parse_args()
+    try:
+        items = json.load(open(args.input, encoding='utf-8'))
+    except Exception as e:
+        print(f"Error loading {args.input}: {e}", file=sys.stderr)
+        sys.exit(1)
 
-    arc_items = json.load(open(args.arc_file,  encoding='utf-8'))
-    loot_items = json.load(open(args.loot_file, encoding='utf-8'))
+    # Build id→name for arc-derived crafting
+    id_to_name = {it['id']: it['name'] for it in items if 'id' in it and 'name' in it}
+    missing_ids = set()
+    refined = []
 
-    loot_map = { L['loot_name']: L for L in loot_items }
-    unmatched_loot = set(loot_map.keys())
-    unmatched_arc = []
+    for it in items:
+        entry = dict(it)
+        crafting = entry.get('crafting')             # original arc crafting map
+        cu = entry.get('craftableUsing', [])
+        has_nonempty_cu = isinstance(cu, list) and len(cu) > 0
 
-    combined = []
-    for arc in arc_items:
-        name = arc.get('name')
-        loot = loot_map.get(name)
-        if not loot:
-            unmatched_arc.append(name)
-            craftable = False
-            craftable_using = []
-            recycles_into = []
-            used_for = []
-        else:
-            unmatched_loot.discard(name)
-            craftable = loot.get('craftable', False)
-            craftable_using = transform_list(loot.get('craftable_using', []))
-            recycles_into   = transform_list(loot.get('recycles_into', []))
-            used_for        = parse_used_for_crafting(loot.get('used_for_crafting', []))
-        combined.append({
-            **arc,  # includes id, name, description, type, imageFilename, etc.
-            'craftable':       craftable,
-            'craftableUsing':  craftable_using,
-            'recyclesInto':    recycles_into,
-            'usedForCrafting': used_for
-        })
+        if crafting is not None:
+            # Regenerate whenever craftableUsing is missing or empty
+            if not has_nonempty_cu:
+                new_cu = []
+                for cid, amt in crafting.items():
+                    name = id_to_name.get(cid, '')
+                    if not name:
+                        missing_ids.add(cid)
+                    new_cu.append({
+                        'amount': int(amt) if isinstance(amt, (int,str)) and str(amt).isdigit() else amt,
+                        'itemName': name,
+                        'itemId': cid
+                    })
+                entry['craftableUsing'] = new_cu
+                entry['craftable'] = True
+            # drop the old key
+            entry.pop('crafting', None)
 
-    if unmatched_arc:
-        print("Arc items with no loot match:", unmatched_arc)
-    if unmatched_loot:
-        print("Loot entries with no arc match:", list(unmatched_loot))
+        # Normalize any existing lists
+        if 'craftableUsing' in entry:
+            entry['craftableUsing'] = convert_amounts(entry['craftableUsing'])
+        if 'recyclesInto' in entry:
+            entry['recyclesInto'] = convert_amounts(entry['recyclesInto'])
+        if 'usedForCrafting' in entry:
+            entry['usedForCrafting'] = parse_used_for_crafting(entry['usedForCrafting'])
 
-    with open(args.output, 'w', encoding='utf-8') as f:
-        json.dump(combined, f, indent=2, ensure_ascii=False)
+        refined.append(entry)
 
-    print(f"✅ Wrote {len(combined)} items to {args.output}")
+    if missing_ids:
+        print("Warning, unmatched crafting IDs:", missing_ids, file=sys.stderr)
+
+    try:
+        with open(args.output, 'w', encoding='utf-8') as f:
+            json.dump(refined, f, indent=2, ensure_ascii=False)
+        print(f"✅ Wrote {len(refined)} items to {args.output}")
+    except Exception as e:
+        print(f"Error writing {args.output}: {e}", file=sys.stderr)
+        sys.exit(1)
 
 if __name__=='__main__':
     main()
